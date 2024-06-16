@@ -1,0 +1,174 @@
+.decision-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.decision-box img {
+	object-fit: contain;
+	width: 100%;
+}
+
+.volume-icon {
+	position: relative;
+}
+
+.volume-icon-slider {
+	position: absolute;
+	transform: rotate(-90deg);
+	bottom: 100px;
+}
+
+.controls__div {
+	position: absolute;
+	top: 50%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	padding: 0 10px;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(1, 2, 48, 0.808));
+	transition: visibility 0.3s;
+	font-size: 0.9rem;
+	visibility: visible;
+	transition: visibility 0.3s;
+}
+
+.hidden2 {
+	display: none;
+}
+.hidden {
+	visibility: hidden;
+}
+.left {
+	display: flex;
+	width: 55%;
+	justify-content: space-between;
+}
+
+.right {
+	display: flex;
+	justify-content: space-between;
+}
+.loading {
+	position: absolute;
+	top: 0;
+	bottom: 100%;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.duration {
+	font-size: 0.8rem;
+}
+
+.controls__icons {
+	color: white;
+	font-size: 50;
+	transform: scale(0.9);
+}
+
+.controls__icons:hover,
+.controls__icons:focus {
+	color: #fff;
+	transform: scale(0.95);
+	transition: transform 0.3s;
+}
+
+.controls__icons:focus {
+	outline: 1px solid transparent;
+}
+
+.controls__buttons-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.middle-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.middle-wrap p {
+	pointer-events: none;
+}
+
+.Button {
+	background-color: rgb(206, 34, 34);
+	border: 1px solid white;
+}
+
+/* 
+.control_Container {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	flex-direction: column;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 5px 20px;
+}
+
+.mid__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon__btn {
+	padding: 0 10px;
+	color: #7b2cbf;
+}
+
+.slider__container { 
+	width: 100%; 
+	display: flex;
+	align-items: center;
+	padding: 0 16px;
+}
+
+.control__box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.inner__controls {
+	display: flex;
+	padding: 10px 0;
+	align-items: center;
+	width: 50%;
+}
+
+span {
+	color: #fff;
+	font-size: 0.8rem;
+	margin-left: 10px;
+}
+
+.second__control {
+	display: flex;
+	align-items: center;
+}
+*/
