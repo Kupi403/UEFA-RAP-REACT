@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
-import { styled } from '@mui/material/styles'
+
 
 import { Button, Slider, CircularProgress, IconButton } from '@mui/material'
 import {
@@ -15,52 +15,62 @@ import {
 	Fullscreen,
 	FullscreenExit,
 	VolumeOff,
+	VolumeMute,
+	VolumeDown,
 	ArrowBack,
 	ArrowForward,
 	Replay5,
 	Forward5,
 } from '@mui/icons-material'
+import PrettoSlider from './VideoPlayer/PrettoSlider.js'
 import './ControlIcons.css'
 
-const PrettoSlider = styled(Slider)({
-		color: '#52af77',
-		height: 8,
-		'& .MuiSlider-track': {
-			border: 'none',
-		},
-		'& .MuiSlider-thumb': {
-			height: 9,
-			width: 15,
-			borderRadius: '0',
-			backgroundColor: '#fff',
-			border: '2px solid currentColor',
-			'&:focus, &:hover, &.Mui-active, &.Mui-focusVisible': {
-				boxShadow: 'inherit',
-			},
-			'&::before': {
-				display: 'none',
-			},
-		},
-		'& .MuiSlider-valueLabel': {
-			lineHeight: 1.2,
-			fontSize: 12,
-			background: 'unset',
-			padding: 0,
-			width: 32,
-			height: 32,
-			// borderRadius: '50% 50% 50% 0',
-			backgroundColor: '#52af77',
-			transformOrigin: 'bottom left',
-			transform: 'translate(50%, -100%) rotate(-45deg) scale(0)',
-			'&::before': { display: 'none' },
-			'&.MuiSlider-valueLabelOpen': {
-				transform: 'translate(50%, -100%) rotate(-45deg) scale(1)',
-			},
-			'& > *': {
-				transform: 'rotate(45deg)',
-			},
-		},
-	})
+// const PrettoSlider = styled(Slider)({
+// 		color: '#52af77',
+// 		height: 8,
+// 		transition:'none',
+// 		'& .MuiSlider-track': {
+// 			border: 'none',
+// 			transition:'none',
+// 		},
+// 		'& .MuiSlider-thumb': {
+// 			height: 9,
+// 			width: 15,
+// 			borderRadius: '0',
+// 			backgroundColor: '#fff',
+// 			transition:'none',
+// 			border: '2px solid currentColor',
+// 			'&:focus, &:hover, &.Mui-active, &.Mui-focusVisible': {
+// 				boxShadow: 'inherit',
+// 			},
+// 			'&::before': {
+// 				display: 'none',
+// 			},
+// 		},
+// 		'& .MuiSlider-valueLabel': {
+// 			transition:'none',
+// 			lineHeight: 1.2,
+// 			fontSize: 12,
+// 			background: 'unset',
+// 			padding: 0,
+// 			width: 32,
+// 			height: 32,
+// 			// borderRadius: '50% 50% 50% 0',
+// 			backgroundColor: '#52af77',
+// 			transformOrigin: 'bottom left',
+// 			transform: 'translate(50%, -100%) rotate(-45deg) scale(0)',
+// 			'&::before': { display: 'none' },
+// 			'&.MuiSlider-valueLabelOpen': {
+// 				transition:'none',
+// 				transform: 'translate(50%, -100%) rotate(-45deg) scale(1)',
+// 			},
+// 			'& > *': {
+// 				transition:'none',
+// 				transform: 'rotate(45deg)',
+// 			},
+// 		},
+// 	})
+
 
 const ControlIcons = ({
 	playerState,
@@ -88,23 +98,9 @@ const ControlIcons = ({
 	isFullScreen,
 }) => {
 	
-
-
-	const CustomSlider = styled(Slider)(({ theme }) => ({
-		color: 'blue', //color of the slider between thumbs
-		'& .MuiSlider-thumb': {
-			backgroundColor: 'green', //color of thumbs
-		},
-		'& .MuiSlider-rail': {
-			color: 'lime', ////color of the slider outside  teh area between thumbs
-		},
-	}))
+	// console.log(played)
 
 	const sliderRef = useRef()
-
-	console.log(sliderRef);
-
-	
 
 	const classname = isHovered ? 'controls__div' : 'controls__div hidden'
 
@@ -145,10 +141,14 @@ const ControlIcons = ({
 				/>
 				{/* </Scrollbars> */}
 
+				{/* <Controls /> */}
+
 				<Grid
 					container
 					justifyContent='space-between'
-					width='100%'>
+					width='100%'
+					marginBottom='.5rem'
+					>
 					<div className='left'>
 						<Grid item>
 							<IconButton
@@ -230,9 +230,10 @@ const ControlIcons = ({
 							className='controls__icons volume-icon'
 							aria-label='reqind'
 							onClick={e => onMute(e)}
-							onMouseEnter={e => onShowVolumeBar(e)}
-							onMouseLeave={onHideVolumeBar}>
-							{isVolumeBar && (
+							// onMouseEnter={e => onShowVolumeBar(e)}
+							// onMouseLeave={onHideVolumeBar}
+							>
+							{/* {isVolumeBar && (
 								<div className='volume-icon-slider'>
 									<input
 										type='range'
@@ -240,7 +241,7 @@ const ControlIcons = ({
 										onChange={e => onSetVolume(e)}
 									/>
 								</div>
-							)}
+							)} */}
 							{!playerState.mute ? (
 								<VolumeUp
 									fontSize='medium'

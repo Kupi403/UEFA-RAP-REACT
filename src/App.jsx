@@ -83,66 +83,73 @@ const App = () => {
 	const handleShowDecision = () => {
 		const prevStatePlaying = playerState.playing
 
-		if (!playerState.isDecision) {
-			if (playerState.playing) {
-				setPlayerState({
-					...playerState,
-					isDecision: !playerState.isDecision,
-					playing: !playerState.playing,
-				})
-			} else {
-				setPlayerState({
-					...playerState,
-					isDecision: !playerState.isDecision,
-					playing: playerState.playing,
-				})
-			}
-		} else {
-			setPlayerState({ ...playerState, isDecision: !playerState.isDecision })
-			if (prevStatePlaying.playing) {
-				setPlayerState({
-					...playerState,
-					isDecision: !playerState.isDecision,
-					playing: prevStatePlaying.playing,
-				})
-			} else {
-				setPlayerState({
-					...playerState,
-					isDecision: !playerState.isDecision,
-					playing: playerState.playing,
-				})
-			}
-		}
-		// if (!playerState.isDecision && playerState.playing) {
-		// 	console.log(1)
-		// 	setPlayerState({
-		// 		...playerState,
-		// 		isDecision: !playerState.isDecision,
-		// 		playing: !prevStatePlaying,
-		// 	})
+		// if (!playerState.isDecision) {
+		// 	if (playerState.playing) {
+		// 		setPlayerState({
+		// 			...playerState,
+		// 			isDecision: !playerState.isDecision,
+		// 			playing: !playerState.playing,
+		// 		})
+		// 	} else {
+		// 		setPlayerState({
+		// 			...playerState,
+		// 			isDecision: !playerState.isDecision,
+		// 			playing: playerState.playing,
+		// 		})
+		// 	}
 		// } else {
-		// 	console.log(2)
-		// 	setPlayerState({
-		// 		...playerState,
-		// 		isDecision: !playerState.isDecision,
-		// 		playing: prevStatePlaying,
-		// 	})
+			
+		// 	setPlayerState({ ...playerState, isDecision: !playerState.isDecision })
+		// 	if (prevStatePlaying.playing) {
+		// 		console.log('prev grał')
+		// 		setPlayerState({
+		// 			...playerState,
+		// 			isDecision: !playerState.isDecision,
+		// 			playing: prevStatePlaying.playing,
+		// 		})
+		// 	} else {
+				
+		// 		setPlayerState({
+		// 			...playerState,
+		// 			isDecision: !playerState.isDecision,
+		// 			playing: playerState.playing,
+		// 		})
+		// 	}
 		// }
-		// } else if (!playerState.isDecision && !prevState.playing) {
-		// 	console.log(2);
-		// 	setPlayerState({
-		// 		...playerState,
-		// 		isDecision: !playerState.isDecision,
-		// 		playing: prevState.playing,
-		// 	})
-		// } else if(!playerState.isDecision && prevState.playing){
-		// 	console.log(3);
-		// 	setPlayerState({
-		// 		...playerState,
-		// 		isDecision: !playerState.isDecision,
-		// 		playing: prevState.playing,
-		// 	})
-		// }
+
+
+
+		//-------------//
+		if (!playerState.isDecision && playerState.playing) {
+	
+			setPlayerState({
+				...playerState,
+				isDecision: !playerState.isDecision,
+				playing: !prevStatePlaying,
+			})
+		}
+		 else if (!playerState.isDecision && !prevStatePlaying) {
+	
+			setPlayerState({
+				...playerState,
+				isDecision: !playerState.isDecision,
+				playing: prevStatePlaying,
+			})
+		} else if(!playerState.isDecision && prevStatePlaying){
+	
+			setPlayerState({
+				...playerState,
+				isDecision: !playerState.isDecision,
+				playing: prevStatePlaying,
+			})
+		}  else {
+	
+			setPlayerState({
+				...playerState,
+				isDecision: !playerState.isDecision,
+				playing: !prevStatePlaying,
+			})
+		}
 	}
 
 	const getClipDuration = () => {
@@ -167,18 +174,12 @@ const App = () => {
 
 	const handlePlayerSeek = newValue => {
 		const newTime = parseFloat(newValue.target.value / 100)
-		// setPlayerState({ ...playerState, played: newTime, playing: false })
-		// playerRef.current.seekTo(newTime)
-		setPlayerState({ ...playerState, played: newTime })
+		setPlayerState({ ...playerState, played: newTime, seeking:true, playing: false })
 		playerRef.current.seekTo(newTime)
 	}
 
-	const handlePlayerMouseSeekUp = newValue => {
-		console.log(newValue.target)
-		const newTime = parseFloat(newValue.target.value / 100)
-		console.log(newTime);
-		setPlayerState({ ...playerState, seeking: false, played: newTime })
-		playerRef.current.seekTo(newTime)
+	const handlePlayerMouseSeekUp = () => {
+		setPlayerState({ ...playerState, seeking: false, playing: true })
 	}
 
 	const handleNext = () => {
