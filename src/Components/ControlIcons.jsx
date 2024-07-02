@@ -1,9 +1,8 @@
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 
-
-import { Button, Slider, CircularProgress, IconButton } from '@mui/material'
+import { Button, Slider, CircularProgress, IconButton, Tooltip } from '@mui/material'
 import {
 	PlayArrowSharp,
 	FastForwardSharp,
@@ -71,7 +70,6 @@ import './ControlIcons.css'
 // 		},
 // 	})
 
-
 const ControlIcons = ({
 	playerState,
 	onPlayPause,
@@ -93,16 +91,49 @@ const ControlIcons = ({
 	isHovered,
 	isBuffering,
 	onHideVolumeBar,
+	handleChangeRate,
 	onNext,
 	onPrev,
 	isFullScreen,
+	volumes,
 }) => {
-	
 	// console.log(played)
 
 	const sliderRef = useRef()
 
 	const classname = isHovered ? 'controls__div' : 'controls__div hidden'
+	const [volumeIcon, setVolumeIcon] = useState(
+		<VolumeUp
+			fontSize='medium'
+			style={{ color: 'white' }}
+		/>
+	)
+
+	useEffect(() => {
+		if (playerState.volume == 0) {
+			setVolumeIcon(
+				<VolumeOff
+					fontSize='medium'
+					style={{ color: 'white' }}
+				/>
+			)
+		} else if (playerState.volume == volumes.low) {
+			setVolumeIcon(
+				<VolumeDown
+					fontSize='medium'
+					style={{ color: 'white' }}
+				/>
+			)
+		} else {
+			setVolumeIcon(
+				<VolumeUp
+					fontSize='medium'
+					style={{ color: 'white' }}
+				/>
+			)
+		}
+	}, [playerState.volume])
+
 
 	return (
 		<>
@@ -139,7 +170,6 @@ const ControlIcons = ({
 					onChange={onSeek}
 					onChangeCommitted={onSeekMouseUp}
 				/>
-				{/* </Scrollbars> */}
 
 				{/* <Controls /> */}
 
@@ -147,8 +177,7 @@ const ControlIcons = ({
 					container
 					justifyContent='space-between'
 					width='100%'
-					marginBottom='.5rem'
-					>
+					marginBottom='.5rem'>
 					<div className='left'>
 						<Grid item>
 							<IconButton
@@ -220,48 +249,22 @@ const ControlIcons = ({
 							onClick={onShowDecision}>
 							Decision
 						</Button>
-						<IconButton className='controls__icons'>
-							<Speed
-								fontSize='medium'
-								style={{ color: 'white' }}
-							/>
-						</IconButton>
+						<Tooltip
+						title={`${playerState.playerRate}x`}
+							placement='top'>
+							<IconButton className='controls__icons' onClick={handleChangeRate}>
+								<Speed
+									fontSize='medium'
+									style={{ color: 'white' }}
+								/>
+							</IconButton>
+						</Tooltip>
 						<IconButton
 							className='controls__icons volume-icon'
 							aria-label='reqind'
-							onClick={e => onMute(e)}
-							// onMouseEnter={e => onShowVolumeBar(e)}
-							// onMouseLeave={onHideVolumeBar}
-							>
-							{/* {isVolumeBar && (
-								<div className='volume-icon-slider'>
-									<input
-										type='range'
-										value={volume * 100}
-										onChange={e => onSetVolume(e)}
-									/>
-								</div>
-							)} */}
-							{!playerState.mute ? (
-								<VolumeUp
-									fontSize='medium'
-									style={{ color: 'white' }}
-								/>
-							) : (
-								<VolumeOff
-									fontSize='medium'
-									style={{ color: 'white' }}
-								/>
-							)}
+							onClick={e => onMute(e)}>
+							{volumeIcon}
 						</IconButton>
-						{/* <Typography style={{ color: '#fff', paddingTop: '5px' }}>40</Typography>
-					<Slider
-						orientation='vertical'
-						min={0}
-						max={100}
-						defaultValue={100}
-						className='volume__slider'
-					/> */}
 
 						<IconButton
 							className='controls__icons'

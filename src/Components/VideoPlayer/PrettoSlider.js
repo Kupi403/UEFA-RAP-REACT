@@ -44,6 +44,12 @@ import {Slider} from '@mui/material'
 				transition:'none',
 				transform: 'rotate(45deg)',
 			},
+			'& .buffered-track': {
+				position: 'absolute',
+				backgroundColor: 'rgba(82, 175, 119, 0.5)',
+				height: '100%',
+				zIndex: -1,
+			  },
 		},
 	})
 

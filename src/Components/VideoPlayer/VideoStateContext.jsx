@@ -1,6 +1,6 @@
 import { createContext } from 'react'
 
-export const playerStateCtx = createContext({
+const playerStateCtx = createContext({
 	playing: true,
 	mute: true,
 	volume: 0.5,
@@ -12,3 +12,5 @@ export const playerStateCtx = createContext({
 	autoPlay: true,
 	isFullScreen: false,
 })
+
+export default playerStateCtx
