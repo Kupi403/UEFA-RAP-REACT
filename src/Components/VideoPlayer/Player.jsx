@@ -5,6 +5,7 @@ import screenfull from 'screenfull'
 import Controls from './Controls'
 import formatTime from '../../helpers/formatTime'
 import { CircularProgress } from '@mui/material'
+import isIOSDevice from '../../helpers/isIOSDevice'
 import './style/Player.scss'
 
 const Player = forwardRef(({ clipList }, ref) => {
@@ -46,7 +47,6 @@ const Player = forwardRef(({ clipList }, ref) => {
 	}
 
 	const { playing, mute, volume, playerRate, played, seeking, isReady, autoPlay, isFullScreen } = playerState
-
 
 	const handlePlayPause = e => {
 		if (e.target.ariaLabel == 'play/pause' || e.target.tagName == 'VIDEO') {
@@ -123,7 +123,6 @@ const Player = forwardRef(({ clipList }, ref) => {
 			})
 		}
 	}
-
 
 	const getClipDuration = () => {
 		setIsBuffering(false)
@@ -255,7 +254,8 @@ const Player = forwardRef(({ clipList }, ref) => {
 					setIsVideoReady(true)
 					getClipDuration()
 				}}
-				controls={false}
+				controls={isIOSDevice()}
+				playsinline={isIOSDevice()}
 				onStart={() => setIsBuffering(true)}
 				autoPlay={autoPlay}
 				onProgress={handlePlayerProgress}
@@ -264,33 +264,35 @@ const Player = forwardRef(({ clipList }, ref) => {
 				onBuffer={() => setIsBuffering(true)}
 				onBufferEnd={() => setIsBuffering(false)}
 			/>
-			<Controls
-				playerState={playerState}
-				onPlayPause={handlePlayPause}
-				onMute={handleMute}
-				isHovered={controlsState.show}
-				onNext={handleNext}
-				onPrev={handlePrev}
-				volume={volume}
-				volumes={volumes}
-				onSetVolume={handleSetVolume}
-				currentId={currentClipId}
-				clipsLength={clipList.length}
-				decision={clipList[currentClipId - 1].decision}
-				translation={clipList[currentClipId - 1].translation}
-				onShowDecision={handleShowDecision}
-				clipDuration={clipDuration}
-				playedTime={formatTime(currentPlayerTime)}
-				currentTime={currentPlayerTime}
-				played={played}
-				isBuffering={isBuffering}
-				onRewind={handleRewind}
-				onForward={handleForward}
-				onSeek={handlePlayerSeek}
-				onSeekMouseUp={handlePlayerMouseSeekUp}
-				onFullscreen={handleFullscreen}
-				isFullScreen={isFullScreen}
-			/>
+			{!isIOSDevice() && (
+				<Controls
+					playerState={playerState}
+					onPlayPause={handlePlayPause}
+					onMute={handleMute}
+					isHovered={controlsState.show}
+					onNext={handleNext}
+					onPrev={handlePrev}
+					volume={volume}
+					volumes={volumes}
+					onSetVolume={handleSetVolume}
+					currentId={currentClipId}
+					clipsLength={clipList.length}
+					decision={clipList[currentClipId - 1].decision}
+					translation={clipList[currentClipId - 1].translation}
+					onShowDecision={handleShowDecision}
+					clipDuration={clipDuration}
+					playedTime={formatTime(currentPlayerTime)}
+					currentTime={currentPlayerTime}
+					played={played}
+					isBuffering={isBuffering}
+					onRewind={handleRewind}
+					onForward={handleForward}
+					onSeek={handlePlayerSeek}
+					onSeekMouseUp={handlePlayerMouseSeekUp}
+					onFullscreen={handleFullscreen}
+					isFullScreen={isFullScreen}
+				/>
+			)}
 		</div>
 	)
 })

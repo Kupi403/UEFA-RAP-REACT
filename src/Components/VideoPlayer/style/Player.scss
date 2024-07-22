@@ -1,9 +1,11 @@
+@import '../../styles/config.scss';
+
 .player {
 	position: relative;
 	font-size: 0;
 	overflow: hidden;
-	background-color: rgba(0, 4, 44, 0.39);
-	border-radius: 10px;
+	background-color: $player-background;
+	border-radius: $border-radius;
 
 	&__loading {
 		position: absolute;

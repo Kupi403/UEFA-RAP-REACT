@@ -1,4 +1,4 @@
-import { useRef, useEffect, useContext } from 'react'
+import { useRef, useEffect, useContext, useState } from 'react'
 import { AppContext } from '../store/AppContext'
 import Player from '../Components/VideoPlayer/Player'
 import { useParams } from 'react-router-dom'
@@ -6,11 +6,14 @@ import api from '../assets/app-clips.json'
 import { useSwipeable } from 'react-swipeable'
 import PageHeader from '../Components/PageHeader'
 import { IconButton } from '@mui/material'
-import { ArrowBack, ArrowForward } from '@mui/icons-material'
+import { ArrowBack, ArrowForward, PlaylistAddCheck } from '@mui/icons-material'
 import setTitle from '../helpers/setDocumentTitle'
 import './styles/Clip.scss'
+import isIOSDevice from '../helpers/isIOSDevice'
 
 const Clip = () => {
+	const [isIOSDecision, setIsIOSDecision] = useState(false)
+
 	const { category, id } = useParams()
 	const letter = category.toUpperCase()
 	const clipList = api[letter].content
@@ -18,17 +21,11 @@ const Clip = () => {
 	const currentClipId = +id
 	const playerWrapperRef = useRef()
 
-	const isSafari = () => {
-		const userAgent = navigator.userAgent
-		const vendor = navigator.vendor
-		const isSafari = /Safari/.test(userAgent) && /Apple/.test(vendor) && !/CriOS|FxiOS|OPiOS|EdgiOS/.test(userAgent)
-		return isSafari
-	}
-
 	const { language, version, translations } = useContext(AppContext)
 
 	useEffect(() => {
 		setTitle(version, `${category}${id}`)
+		isIOSDevice()
 	}, [id])
 
 	const handlers = useSwipeable({
@@ -69,11 +66,14 @@ const Clip = () => {
 				clipList={clipList}
 			/>
 
-			<div className={isSafari() ? 'clip__controls' : ' clip__controls clip__controls--no-safari'}>
+			<div className={isIOSDevice() ? 'clip__controls' : ' clip__controls clip__controls--no-safari'}>
 				<span>
 					<IconButton
 						className='controls__icons'
-						onClick={() => playerRef.current.handlePrev(currentClipId)}
+						onClick={() => {
+							setIsIOSDecision(false)
+							playerRef.current.handlePrev(currentClipId)
+						}}
 						disabled={id == 1}>
 						<ArrowBack
 							fontSize='large'
@@ -81,13 +81,29 @@ const Clip = () => {
 						/>
 					</IconButton>
 				</span>
-				<p style={{ fontSize: '20px' }}>
-					{id}/{clipList.length}
-				</p>
+				<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+					<p style={{ color: 'white' }}>
+						{id}/{clipList.length}
+					</p>
+
+					{isIOSDevice() && (
+						<IconButton
+							className='controls__icons'
+							onClick={() => setIsIOSDecision(!isIOSDecision)}>
+							<PlaylistAddCheck
+								fontSize='large'
+								style={{ color: 'white' }}
+							/>
+						</IconButton>
+					)}
+				</div>
 
 				<IconButton
 					className='controls__icons'
-					onClick={() => playerRef.current.handleNext(currentClipId)}
+					onClick={() => {
+						setIsIOSDecision(false)
+						playerRef.current.handleNext(currentClipId)
+					}}
 					disabled={+id === clipList.length}>
 					<ArrowForward
 						fontSize='large'
@@ -95,6 +111,16 @@ const Clip = () => {
 					/>
 				</IconButton>
 			</div>
+			{isIOSDecision && (
+				<div className='controls__ios-decision controls__ios-decision--show'>
+					<img
+						src={clipList[currentClipId - 1].decision}
+						alt={`Decyzja klipu ${category}${id}`}
+					/>
+
+					<p>{clipList[currentClipId - 1].translation}</p>
+				</div>
+			)}
 
 			{api.dictionary[letter] && language === 'pl' && (
 				<div className='clip__dictionary'>

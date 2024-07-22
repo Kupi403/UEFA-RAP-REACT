@@ -138,7 +138,7 @@ const ControlIcons = ({
 				<div className='decision-box'>
 					<img
 						src={decision}
-						alt='Decyzja klipu A1'
+						alt={`Decyzja klipu ${params.category}${id}`}
 					/>
 					{translation && <p>{translation}</p>}
 				</div>

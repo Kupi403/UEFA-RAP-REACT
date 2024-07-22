@@ -1,3 +1,4 @@
+@import '../../styles/config.scss';
 
 @keyframes showControls {
 	from {
@@ -10,15 +11,14 @@
 	}
 }
 
-
 .decision-box {
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	padding: 2em;
+	background: $background-shadow;
+	padding: $space-xlarge;
 
 	img {
 		object-fit: contain;
@@ -28,31 +28,30 @@
 
 	p {
 		z-index: 1;
-		font-size: 0.6rem;
-		color: #fff;
-		background-color: rgba(0, 0, 0, 0.5);
-		padding: 0.5em;
-		font-family: 'Roboto', sans-serif;
+		font-size: $font-smallest;
+		color: $pure-white;
+		background-color: $background-shadow;
+		padding: $space-small;
+		font-family: $font-secondary;
 	}
 
-	@media (min-width: 500px) {
-		&__p {
-			font-size: 0.8rem;
+	@media (min-width: $video-controls) {
+		p {
+			font-size: $font-small;
 		}
 	}
 
-	@media (min-width: 768px) {
-		&__p {
-			font-size: 1rem;
+	@media (min-width: $tablet) {
+		p {
+			font-size: $font-large;
 		}
 	}
 }
 
-
 .middle {
 	display: none;
 
-	@media (min-width: 500px) {
+	@media (min-width: $video-controls) {
 		display: flex;
 	}
 }
@@ -66,14 +65,13 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		width: 100%;
-		padding: 0 10px;
-		background: rgb(0, 0, 0);
-		background: linear-gradient(rgba(255, 255, 255, 0), rgba(1, 2, 48, 0.808));
-		font-size: 0.6rem;
+		padding: 0 $space-standard;
+		background: $video-gradient;
+		font-size: $font-smallest;
 		opacity: 1;
 		transition: opacity 0.1s, transform 0.1s;
 
-		@media (min-width: 500px) {
+		@media (min-width: $video-controls) {
 			position: absolute;
 		}
 	}
@@ -81,29 +79,39 @@
 	&__time {
 		display: inline-block;
 		padding-bottom: 0;
-		font-family: 'Roboto', sans-serif;
-		font-size: 1rem;
+		font-family: $font-secondary;
+		font-size: $font-small;
 	}
 
 	&__slider span {
-		font-size: 0.3rem;
-		padding: 0.5em;
+		padding: $space-small;
 	}
 
 	&__icons {
-		color: white;
-		font-size: 50;
+		color: $pure-white;
 		transform: scale(0.9);
 
 		&:hover,
 		&:focus {
-			color: #fff;
+			color: $pure-white;
 			transform: scale(0.95);
 			transition: transform 0.3s;
 		}
 
 		&:focus {
 			outline: 1px solid transparent;
+		}
+	}
+
+	&__ios-decision {
+		width: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+
+		p {
+			font-family: $font-secondary;
 		}
 	}
 
@@ -117,7 +125,6 @@
 
 .MuiSlider-track {
 	margin: 0;
-	padding: 0.3em;
 }
 
 .hidden {
@@ -145,7 +152,7 @@
 }
 
 .duration {
-	font-size: 0.8rem;
+	font-size: $font-small;
 }
 
 .middle {
@@ -163,9 +170,4 @@
 	p {
 		pointer-events: none;
 	}
-}
-
-.Button {
-	background-color: rgb(206, 34, 34);
-	border: 1px solid white;
 }

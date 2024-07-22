@@ -17,6 +17,7 @@ $footer-distance: 5em;
 // PADDING&MARGIN SIZES END
 
 // FONT SIZES
+$font-smallest: 0.6rem;
 $font-small: 0.8rem;
 $font-medium: 1rem;
 $font-large: 1.2rem;
@@ -31,6 +32,8 @@ $font-secondary: 'Inter', sans-serif;
 //COLORS
 $background-shadow: rgba(0, 0, 0, 0.5);
 $expanded-element-shadow: #1325548f;
+$player-background:#00042c63;
+$video-gradient: linear-gradient(rgba(255, 255, 255, 0), rgba(1, 2, 48, 0.808));
 $gradient: linear-gradient(319deg, rgba(18, 46, 120, 1) 0%, rgba(34, 68, 158, 1) 100%);
 $clip-shadow: linear-gradient(0deg, rgba(11, 20, 102, 0.678), rgba(0, 0, 0, 0));
 $error-background: #ff3333a8;
