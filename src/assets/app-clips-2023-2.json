@@ -1,0 +1,2613 @@
+{
+	"dictionary": {
+		"A": {
+			"no offence": "brak przewinienia",
+			"indirect free kick": "rzut wolny pośredni",
+			"direct free kick": "rzut wolny bezpośredni",
+			"penalty kick": "rzut karny",
+			"careless": "nieostrożnie",
+			"reckless": "nierozważnie",
+			"violent conduct serious foul play": "poważny, rażący faul"
+		},
+		"B": {
+			"denying a goal or an obvious goal-scoring opportunity (DOGSO)": "przerwanie realnej szansy na zdobycie bramki",
+			"other": "inne",
+			"reckless challenge": "nierozważny atak",
+			"stopping a promising attack": "przerwanie korzystnej akcji",
+			"stopping a promising attack while not attempting to play the ball": "przerwanie korzystnej akcji bez walki o piłkę",
+			"DOGSO while attepmting the ball": "przerwanie realnej szansy na zdobycie bramki w walce o piłkę"
+		},
+		"C": {
+			"offence": "przewinienie",
+			"no offence": "brak przewinienia",
+			"ball movement towards hand": "piłka zmierzająca w stronę ręki",
+			"ball coming from a short distance / unexpected ball": "piłka zmierzająca z bliskiej odległości / nieoczekiwana piłka",
+			"hand / arm in natural position": "ręka naturalnie ułożona",
+			"player tries to avoid hand contact with the ball": "zawodnik próbuje uniknąć kontaktu piłki z ręką",
+			"player unable to avoid hand contact with the ball": "zawodnik nie może uniknąć kontaktu piłki z ręką",
+			"hand / arm supports the body, but not extended": "ręka wspiera ciało ale nie powiększa jego obrysu",
+			"ball coming directly from player's own head or body": "piłka zmierza bezpośrednio od głowy lub ciała zawodnika",
+			"other": "inne",
+			"hand moves towards the ball": "ręka zmierza w kierunku piłki",
+			"distance not short / ball not unexpected": "dystans od piłki nie jest bliski / piłka oczekiwana",
+			"hand / arm in unnatural position / beyond shoulder level": "ręka w nienaturalnej pozycji / powyżej barku",
+			"hand / arm makes body unnaturaly bigger": "ręka powiększa obrys ciała",
+			"player does not try to avoid hand contact with the ball": "zawodnik nie próbuje uniknąć kontaktu piłki z ręką",
+			"attacker gains possession / control of the ball after touching it with hand / arm and scores / or creates GSO": "napastnik ma posiadanie / kontrolę nad piłką po dotknięciu jej ręką i strzela bramkę / kreuje realną szansę na zdobycie bramki",
+			"stopping or interfering with a promising attack": "przerwanie korzystnej akcji",
+			"attempt to score or scoring a goal": "próba zdobycia lub zdobycie bramki",
+			"clear attempt to deceive the referee": "świadoma próba zmylenia sędziego",
+			"unsuccessful attempt to prevent a goal": "nieudana próba zapobiegnięcia utraty bramki",
+			"no disciplinary sanction": "brak kary dyscyplinarnej"
+		},
+		"D": {
+			"no offence": "brak przewinienia",
+			"indirect free kick": "rzut wolny pośredni",
+			"direct free kick": "rzut wolny bezpośredni",
+			"penalty kick": "rzut karny",
+			"promising attack stopped": "przerwanie korzystnej akcji",
+			"showing lack of respect for the game (LOR)": "brak szacunku do zawodów",
+			"reckless challenge": "nierozważny atak",
+			"other": "inne"
+		},
+		"E": {
+			"no offence": "brak przewinienia",
+			"indirect free kick": "rzut wolny pośredni",
+			"direct free kick": "rzut wolny bezpośredni",
+			"penalty kick": "rzut karny",
+			"careless": "nieostrożnie",
+			"reckless": "nierozważnie",
+			"violent conduct serious foul play": "poważny, rażący faul"
+		},
+		"F": {
+			"no offence": "brak przewinienia",
+			"indirect free kick": "rzut wolny pośredni",
+			"direct free kick": "rzut wolny bezpośredni",
+			"penalty kick": "rzut karny",
+			"careless": "nieostrożnie",
+			"reckless": "nierozważnie",
+			"violent conduct serious foul play": "poważny, rażący faul",
+			"no promising attack stopped / no reckless challenge": "brak przerwania korzystnej akcji / nierozważnego ataku",
+			"promising attacked stopped while attempting to play the ball": "przerwanie korzystnej akcji w walce o piłkę",
+			"reckless challenge": "nierozważny atak",
+			"stopping a promising attack": "przerwanie korzystnej akcji",
+			"stopping a promising attack while not attempting to play the ball": "przerwanie korzystnej akcji bez walki o piłkę",
+			"DOGSO while attepmting the ball": "przerwanie realnej szansy na zdobycie bramki w walce o piłkę",
+			"unsporting behavior": "simulation - niesportowe zachowanie - symulacja",
+			"other": "inne"
+		},
+		"G": {
+			"no offence": "brak przewinienia",
+			"indirect free kick": "rzut wolny pośredni",
+			"direct free kick": "rzut wolny bezpośredni",
+			"penalty kick": "rzut karny",
+			"deceiving the referee when no contact": "zmylenie sędziego, gdy nie ma kontaktu",
+			"using slight contact to deceive the referee": "skorzystanie z drobnego kontaktu, aby oszukać sędziego",
+			"anticipating contact and trying to deceive the referee": "oczekiwanie na kontakt i próba zmylenia sędziego",
+			"initiating contact to deceive the referee": "zainicjowanie kontaktu aby zmylić sędziego",
+			"SPA / other": "przerwanie korzystnej akcji / inne"
+		},
+		"L": {
+			"not offside offence": "brak spalonego",
+			"offside offence": "spalony",
+			"not": "brak",
+			"interfering with an opponent": "wpływ na przeciwnika poprzez",
+			"clearly obstructing opponent's line ov vision": "klarowne zasłanianie pola widzenia przeciwnika",
+			"challenging opponent for the ball": "walka o piłkę z przeciwnikiem",
+			"clearly attempting to play the ball which is close to him / impact on opponent": "ewidentna próba zagrania piłki, która jest blisko niego / wywieranie wpływu na przeciwnika",
+			"making obvious action / clear impact on ability of opponent to play the ball": "wywieranie wpływu na możliwość zagrania piłki przez przeciwnika"
+		}
+	},
+	"A": {
+		"letter": "A",
+		"category": "Przewinienia",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/A/A1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/A/A2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/A/A3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/A/A4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/A/A5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/A/A6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/A/A7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/A/A8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/A/A9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/A/A10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/A/A11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/A/A12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/A/A13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/A/A14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/A/A15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/A/A16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/A/A17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/A/A18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A18.png"
+			},
+			{
+				"id": 18,
+				"video": "https://midevku.pl/clips/2024_1/A/A19.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A19.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A19.png"
+			},
+			{
+				"id": 19,
+				"video": "https://midevku.pl/clips/2024_1/A/A20.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A20.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A20.png"
+			},
+			{
+				"id": 20,
+				"video": "https://midevku.pl/clips/2024_1/A/A21.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A21.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A21.png"
+			},
+			{
+				"id": 21,
+				"video": "https://midevku.pl/clips/2024_1/A/A22.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A22.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A22.png"
+			},
+			{
+				"id": 22,
+				"video": "https://midevku.pl/clips/2024_1/A/A23.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A23.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A23.png"
+			},
+			{
+				"id": 23,
+				"video": "https://midevku.pl/clips/2024_1/A/A24.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A24.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A24.png"
+			},
+			{
+				"id": 24,
+				"video": "https://midevku.pl/clips/2024_1/A/A25.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A25.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A25.png"
+			},
+			{
+				"id": 25,
+				"video": "https://midevku.pl/clips/2024_1/A/A26.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A26.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A26.png"
+			},
+			{
+				"id": 26,
+				"video": "https://midevku.pl/clips/2024_1/A/A27.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A27.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A27.png"
+			},
+			{
+				"id": 27,
+				"video": "https://midevku.pl/clips/2024_1/A/A28.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A28.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A28.png"
+			},
+			{
+				"id": 28,
+				"video": "https://midevku.pl/clips/2024_1/A/A29.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A29.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A29.png"
+			},
+			{
+				"id": 29,
+				"video": "https://midevku.pl/clips/2024_1/A/A30.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A30.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A30.png"
+			},
+			{
+				"id": 30,
+				"video": "https://midevku.pl/clips/2024_1/A/A31.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A31.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A31.png"
+			},
+			{
+				"id": 31,
+				"video": "https://midevku.pl/clips/2024_1/A/A32.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A32.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A32.png"
+			},
+			{
+				"id": 32,
+				"video": "https://midevku.pl/clips/2024_1/A/A33.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A33.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A33.png"
+			},
+			{
+				"id": 33,
+				"video": "https://midevku.pl/clips/2024_1/A/A34.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A34.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A34.png"
+			},
+			{
+				"id": 34,
+				"video": "https://midevku.pl/clips/2024_1/A/A35.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A35.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A35.png"
+			},
+			{
+				"id": 35,
+				"video": "https://midevku.pl/clips/2024_1/A/A36.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A36.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A36.png"
+			},
+			{
+				"id": 36,
+				"video": "https://midevku.pl/clips/2024_1/A/A37.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A37.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A37.png"
+			},
+			{
+				"id": 37,
+				"video": "https://midevku.pl/clips/2024_1/A/A38.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A38.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A38.png"
+			},
+			{
+				"id": 38,
+				"video": "https://midevku.pl/clips/2024_1/A/A39.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A39.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A39.png"
+			},
+			{
+				"id": 39,
+				"video": "https://midevku.pl/clips/2024_1/A/A40.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A40.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A40.png"
+			},
+			{
+				"id": 40,
+				"video": "https://midevku.pl/clips/2024_1/A/A41.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A41.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A41.png"
+			},
+			{
+				"id": 41,
+				"video": "https://midevku.pl/clips/2024_1/A/A42.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A42.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A42.png"
+			},
+			{
+				"id": 42,
+				"video": "https://midevku.pl/clips/2024_1/A/A43.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A43.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A43.png"
+			},
+			{
+				"id": 43,
+				"video": "https://midevku.pl/clips/2024_1/A/A44.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A44.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A44.png"
+			},
+			{
+				"id": 44,
+				"video": "https://midevku.pl/clips/2024_1/A/A45.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A45.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A45.png"
+			},
+			{
+				"id": 45,
+				"video": "https://midevku.pl/clips/2024_1/A/A46.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A46.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A46.png"
+			},
+			{
+				"id": 46,
+				"video": "https://midevku.pl/clips/2024_1/A/A47.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A47.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A47.png"
+			},
+			{
+				"id": 47,
+				"video": "https://midevku.pl/clips/2024_1/A/A48.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A48.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A48.png"
+			},
+			{
+				"id": 48,
+				"video": "https://midevku.pl/clips/2024_1/A/A49.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A49.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A49.png"
+			},
+			{
+				"id": 49,
+				"video": "https://midevku.pl/clips/2024_1/A/A50.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A50.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A50.png"
+			},
+			{
+				"id": 50,
+				"video": "https://midevku.pl/clips/2024_1/A/A51.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A51.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A51.png"
+			},
+			{
+				"id": 51,
+				"video": "https://midevku.pl/clips/2024_1/A/A52.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A52.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A52.png"
+			},
+			{
+				"id": 52,
+				"video": "https://midevku.pl/clips/2024_1/A/A53.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A53.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A53.png"
+			},
+			{
+				"id": 53,
+				"video": "https://midevku.pl/clips/2024_1/A/A54.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A54.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A54.png"
+			},
+			{
+				"id": 54,
+				"video": "https://midevku.pl/clips/2024_1/A/A55.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A55.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A55.png"
+			},
+			{
+				"id": 55,
+				"video": "https://midevku.pl/clips/2024_1/A/A56.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A56.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A56.png"
+			},
+			{
+				"id": 56,
+				"video": "https://midevku.pl/clips/2024_1/A/A57.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A57.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A57.png"
+			},
+			{
+				"id": 57,
+				"video": "https://midevku.pl/clips/2024_1/A/A58.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A58.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A58.png"
+			},
+			{
+				"id": 58,
+				"video": "https://midevku.pl/clips/2024_1/A/A59.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A59.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A59.png"
+			},
+			{
+				"id": 59,
+				"video": "https://midevku.pl/clips/2024_1/A/A60.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A60.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A60.png"
+			},
+			{
+				"id": 60,
+				"video": "https://midevku.pl/clips/2024_1/A/A61.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A61.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A61.png"
+			},
+			{
+				"id": 61,
+				"video": "https://midevku.pl/clips/2024_1/A/A62.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A62.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A62.png"
+			},
+			{
+				"id": 62,
+				"video": "https://midevku.pl/clips/2024_1/A/A63.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A63.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A63.png"
+			},
+			{
+				"id": 63,
+				"video": "https://midevku.pl/clips/2024_1/A/A64.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A64.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A64.png"
+			},
+			{
+				"id": 64,
+				"video": "https://midevku.pl/clips/2024_1/A/A65.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A65.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A65.png"
+			},
+			{
+				"id": 65,
+				"video": "https://midevku.pl/clips/2024_1/A/A66.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A66.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A66.png"
+			},
+			{
+				"id": 66,
+				"video": "https://midevku.pl/clips/2024_1/A/A67.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A67.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A67.png"
+			},
+			{
+				"id": 67,
+				"video": "https://midevku.pl/clips/2024_1/A/A68.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A68.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A68.png"
+			},
+			{
+				"id": 68,
+				"video": "https://midevku.pl/clips/2024_1/A/A69.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A69.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A69.png"
+			},
+			{
+				"id": 69,
+				"video": "https://midevku.pl/clips/2024_1/A/A70.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A70.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A70.png"
+			},
+			{
+				"id": 70,
+				"video": "https://midevku.pl/clips/2024_1/A/A71.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A71.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A71.png"
+			},
+			{
+				"id": 71,
+				"video": "https://midevku.pl/clips/2024_1/A/A72.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A72.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A72.png"
+			},
+			{
+				"id": 72,
+				"video": "https://midevku.pl/clips/2024_1/A/A73.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A73.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A73.png"
+			},
+			{
+				"id": 73,
+				"video": "https://midevku.pl/clips/2024_1/A/A74.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A74.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A74.png"
+			},
+			{
+				"id": 74,
+				"video": "https://midevku.pl/clips/2024_1/A/A75.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/A/A75.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/A/A75.png"
+			}
+		]
+	},
+	"B": {
+		"letter": "B",
+		"category": "DOGSO-SPA",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/B/B1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/B/B2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/B/B3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/B/B4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/B/B5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/B/B6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/B/B7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/B/B8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/B/B9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/B/B10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/B/B11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/B/B12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/B/B13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/B/B14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/B/B15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/B/B16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/B/B17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/B/B18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B18.png"
+			},
+			{
+				"id": 18,
+				"video": "https://midevku.pl/clips/2024_1/B/B19.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B19.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B19.png"
+			},
+			{
+				"id": 19,
+				"video": "https://midevku.pl/clips/2024_1/B/B20.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B20.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B20.png"
+			},
+			{
+				"id": 20,
+				"video": "https://midevku.pl/clips/2024_1/B/B21.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B21.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B21.png"
+			},
+			{
+				"id": 21,
+				"video": "https://midevku.pl/clips/2024_1/B/B22.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B22.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B22.png"
+			},
+			{
+				"id": 22,
+				"video": "https://midevku.pl/clips/2024_1/B/B23.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B23.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B23.png"
+			},
+			{
+				"id": 23,
+				"video": "https://midevku.pl/clips/2024_1/B/B24.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B24.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B24.png"
+			},
+			{
+				"id": 24,
+				"video": "https://midevku.pl/clips/2024_1/B/B25.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B25.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B25.png"
+			},
+			{
+				"id": 25,
+				"video": "https://midevku.pl/clips/2024_1/B/B26.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B26.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B26.png"
+			},
+			{
+				"id": 26,
+				"video": "https://midevku.pl/clips/2024_1/B/B27.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B27.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B27.png"
+			},
+			{
+				"id": 27,
+				"video": "https://midevku.pl/clips/2024_1/B/B28.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B28.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B28.png"
+			},
+			{
+				"id": 28,
+				"video": "https://midevku.pl/clips/2024_1/B/B29.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B29.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B29.png"
+			},
+			{
+				"id": 29,
+				"video": "https://midevku.pl/clips/2024_1/B/B30.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B30.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B30.png"
+			},
+			{
+				"id": 30,
+				"video": "https://midevku.pl/clips/2024_1/B/B31.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B31.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B31.png"
+			},
+			{
+				"id": 31,
+				"video": "https://midevku.pl/clips/2024_1/B/B32.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B32.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B32.png"
+			},
+			{
+				"id": 32,
+				"video": "https://midevku.pl/clips/2024_1/B/B33.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B33.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B33.png"
+			},
+			{
+				"id": 33,
+				"video": "https://midevku.pl/clips/2024_1/B/B34.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B34.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B34.png"
+			},
+			{
+				"id": 34,
+				"video": "https://midevku.pl/clips/2024_1/B/B35.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B35.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B35.png"
+			},
+			{
+				"id": 35,
+				"video": "https://midevku.pl/clips/2024_1/B/B36.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B36.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B36.png"
+			},
+			{
+				"id": 36,
+				"video": "https://midevku.pl/clips/2024_1/B/B37.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B37.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B37.png"
+			},
+			{
+				"id": 37,
+				"video": "https://midevku.pl/clips/2024_1/B/B38.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B38.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B38.png"
+			},
+			{
+				"id": 38,
+				"video": "https://midevku.pl/clips/2024_1/B/B39.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B39.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B39.png"
+			},
+			{
+				"id": 39,
+				"video": "https://midevku.pl/clips/2024_1/B/B40.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/B/B40.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/B/B40.png"
+			}
+		]
+	},
+	"C": {
+		"letter": "C",
+		"category": "Zagranie ręką",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/C/C1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/C/C2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/C/C3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/C/C4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/C/C5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/C/C6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/C/C7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/C/C8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/C/C9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/C/C10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/C/C11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/C/C12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/C/C13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/C/C14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/C/C15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/C/C16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/C/C17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/C/C18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C18.png"
+			},
+			{
+				"id": 18,
+				"video": "https://midevku.pl/clips/2024_1/C/C19.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C19.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C19.png"
+			},
+			{
+				"id": 19,
+				"video": "https://midevku.pl/clips/2024_1/C/C20.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C20.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C20.png"
+			},
+			{
+				"id": 20,
+				"video": "https://midevku.pl/clips/2024_1/C/C21.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C21.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C21.png"
+			},
+			{
+				"id": 21,
+				"video": "https://midevku.pl/clips/2024_1/C/C22.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C22.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C22.png"
+			},
+			{
+				"id": 22,
+				"video": "https://midevku.pl/clips/2024_1/C/C23.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C23.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C23.png"
+			},
+			{
+				"id": 23,
+				"video": "https://midevku.pl/clips/2024_1/C/C24.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C24.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C24.png"
+			},
+			{
+				"id": 24,
+				"video": "https://midevku.pl/clips/2024_1/C/C25.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C25.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C25.png"
+			},
+			{
+				"id": 25,
+				"video": "https://midevku.pl/clips/2024_1/C/C26.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C26.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C26.png"
+			},
+			{
+				"id": 26,
+				"video": "https://midevku.pl/clips/2024_1/C/C27.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C27.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C27.png"
+			},
+			{
+				"id": 27,
+				"video": "https://midevku.pl/clips/2024_1/C/C28.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C28.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C28.png"
+			},
+			{
+				"id": 28,
+				"video": "https://midevku.pl/clips/2024_1/C/C29.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C29.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C29.png"
+			},
+			{
+				"id": 29,
+				"video": "https://midevku.pl/clips/2024_1/C/C30.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C30.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C30.png"
+			},
+			{
+				"id": 30,
+				"video": "https://midevku.pl/clips/2024_1/C/C31.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C31.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C31.png"
+			},
+			{
+				"id": 31,
+				"video": "https://midevku.pl/clips/2024_1/C/C32.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C32.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C32.png"
+			},
+			{
+				"id": 32,
+				"video": "https://midevku.pl/clips/2024_1/C/C33.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C33.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C33.png"
+			},
+			{
+				"id": 33,
+				"video": "https://midevku.pl/clips/2024_1/C/C34.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C34.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C34.png"
+			},
+			{
+				"id": 34,
+				"video": "https://midevku.pl/clips/2024_1/C/C35.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C35.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C35.png"
+			},
+			{
+				"id": 35,
+				"video": "https://midevku.pl/clips/2024_1/C/C36.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C36.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C36.png"
+			},
+			{
+				"id": 36,
+				"video": "https://midevku.pl/clips/2024_1/C/C37.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C37.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C37.png"
+			},
+			{
+				"id": 37,
+				"video": "https://midevku.pl/clips/2024_1/C/C38.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/C/C38.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/C/C38.png"
+			}
+		]
+	},
+	"D": {
+		"letter": "D",
+		"category": "Trzymanie",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/D/D1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/D/D2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/D/D3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/D/D4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/D/D5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/D/D6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/D/D7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/D/D8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/D/D9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/D/D10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/D/D11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/D/D12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/D/D13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D13.png"
+				
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/D/D14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/D/D15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/D/D16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/D/D17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/D/D18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D18.png"
+			},
+			{
+				"id": 18,
+				"video": "https://midevku.pl/clips/2024_1/D/D19.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D19.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D19.png"
+			},
+			{
+				"id": 19,
+				"video": "https://midevku.pl/clips/2024_1/D/D20.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/D/D20.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/D/D20.png"
+			}
+		]
+	},
+	"E": {
+		"letter": "E",
+		"category": "Atakowanie rękoma",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/E/E1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/E/E2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/E/E3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/E/E4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/E/E5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/E/E6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/E/E7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/E/E8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/E/E9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/E/E10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/E/E11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/E/E12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/E/E13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/E/E14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/E/E15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/E/E16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/E/E17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/E/E18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/E/E18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/E/E18.png"
+			}
+		]
+	},
+	"F": {
+		"letter": "F",
+		"category": "Decyzje w polu karnym",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/F/F1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/F/F2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/F/F3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/F/F4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/F/F5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/F/F6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/F/F7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/F/F8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/F/F9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/F/F10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/F/F11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/F/F12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/F/F13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/F/F14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/F/F15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/F/F16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/F/F17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/F/F18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F18.png"
+			},
+			{
+				"id": 18,
+				"video": "https://midevku.pl/clips/2024_1/F/F19.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F19.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F19.png"
+			},
+			{
+				"id": 19,
+				"video": "https://midevku.pl/clips/2024_1/F/F20.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F20.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F20.png"
+			},
+			{
+				"id": 20,
+				"video": "https://midevku.pl/clips/2024_1/F/F21.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F21.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F21.png"
+			},
+			{
+				"id": 21,
+				"video": "https://midevku.pl/clips/2024_1/F/F22.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F22.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F22.png"
+			},
+			{
+				"id": 22,
+				"video": "https://midevku.pl/clips/2024_1/F/F23.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F23.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F23.png"
+			},
+			{
+				"id": 23,
+				"video": "https://midevku.pl/clips/2024_1/F/F24.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F24.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F24.png"
+			},
+			{
+				"id": 24,
+				"video": "https://midevku.pl/clips/2024_1/F/F25.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F25.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F25.png"
+			},
+			{
+				"id": 25,
+				"video": "https://midevku.pl/clips/2024_1/F/F26.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F26.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F26.png"
+			},
+			{
+				"id": 26,
+				"video": "https://midevku.pl/clips/2024_1/F/F27.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F27.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F27.png"
+			},
+			{
+				"id": 27,
+				"video": "https://midevku.pl/clips/2024_1/F/F28.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F28.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F28.png"
+			},
+			{
+				"id": 28,
+				"video": "https://midevku.pl/clips/2024_1/F/F29.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F29.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F29.png"
+			},
+			{
+				"id": 29,
+				"video": "https://midevku.pl/clips/2024_1/F/F30.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F30.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F30.png"
+			},
+			{
+				"id": 30,
+				"video": "https://midevku.pl/clips/2024_1/F/F31.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F31.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F31.png"
+			},
+			{
+				"id": 31,
+				"video": "https://midevku.pl/clips/2024_1/F/F32.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F32.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F32.png"
+			},
+			{
+				"id": 32,
+				"video": "https://midevku.pl/clips/2024_1/F/F33.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F33.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F33.png"
+			},
+			{
+				"id": 33,
+				"video": "https://midevku.pl/clips/2024_1/F/F34.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F34.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F34.png"
+			},
+			{
+				"id": 34,
+				"video": "https://midevku.pl/clips/2024_1/F/F35.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F35.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F35.png"
+			},
+			{
+				"id": 35,
+				"video": "https://midevku.pl/clips/2024_1/F/F36.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F36.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F36.png"
+			},
+			{
+				"id": 36,
+				"video": "https://midevku.pl/clips/2024_1/F/F37.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F37.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F37.png"
+			},
+			{
+				"id": 37,
+				"video": "https://midevku.pl/clips/2024_1/F/F38.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F38.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F38.png"
+			},
+			{
+				"id": 38,
+				"video": "https://midevku.pl/clips/2024_1/F/F39.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F39.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F39.png"
+			},
+			{
+				"id": 39,
+				"video": "https://midevku.pl/clips/2024_1/F/F40.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F40.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F40.png"
+			},
+			{
+				"id": 40,
+				"video": "https://midevku.pl/clips/2024_1/F/F41.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F41.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F41.png"
+			},
+			{
+				"id": 41,
+				"video": "https://midevku.pl/clips/2024_1/F/F42.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F42.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F42.png"
+			},
+			{
+				"id": 42,
+				"video": "https://midevku.pl/clips/2024_1/F/F43.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F43.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F43.png"
+			},
+			{
+				"id": 43,
+				"video": "https://midevku.pl/clips/2024_1/F/F44.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F44.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F44.png"
+			},
+			{
+				"id": 44,
+				"video": "https://midevku.pl/clips/2024_1/F/F45.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F45.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F45.png"
+			},
+			{
+				"id": 45,
+				"video": "https://midevku.pl/clips/2024_1/F/F46.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F46.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F46.png"
+			},
+			{
+				"id": 46,
+				"video": "https://midevku.pl/clips/2024_1/F/F47.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F47.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F47.png"
+			},
+			{
+				"id": 47,
+				"video": "https://midevku.pl/clips/2024_1/F/F48.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F48.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F48.png"
+			},
+			{
+				"id": 48,
+				"video": "https://midevku.pl/clips/2024_1/F/F49.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F49.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F49.png"
+			},
+			{
+				"id": 49,
+				"video": "https://midevku.pl/clips/2024_1/F/F50.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/F/F50.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/F/F50.png"
+			}
+		]
+	},
+	"G": {
+		"letter": "G",
+		"category": "Symulacje",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/G/G1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/G/G2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/G/G3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/G/G4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/G/G5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/G/G6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/G/G7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/G/G8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/G/G9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/G/G10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/G/G11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/G/G12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/G/G13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/G/G14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/G/G15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/G/G16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/G/G16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/G/G16.png"
+			}
+		]
+	},
+	"H": {
+		"letter": "H",
+		"category": "Korzyść",
+		"translation": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/H/H1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/H/H2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/H/H3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/H/H4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/H/H5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/H/H6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/H/H7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/H/H8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/H/H9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/H/H10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/H/H11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/H/H12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/H/H13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/H/H14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/H/H15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/H/H16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/H/H16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/H/H16.png"
+			}
+		]
+	},
+
+	"J": {
+		"letter": "J",
+		"category": "Reprymenda",
+		"translation": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/J/J1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/J/J2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/J/J3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/J/J4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/J/J5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/J/J6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/J/J7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/J/J8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/J/J9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/J/J10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/J/J11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/J/J12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/J/J13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/J/J14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/J/J15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/J/J16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/J/J17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/J/J18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J18.png"
+			},
+			{
+				"id": 18,
+				"video": "https://midevku.pl/clips/2024_1/J/J19.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J19.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J19.png"
+			},
+			{
+				"id": 19,
+				"video": "https://midevku.pl/clips/2024_1/J/J20.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J20.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J20.png"
+			},
+			{
+				"id": 20,
+				"video": "https://midevku.pl/clips/2024_1/J/J21.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J21.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J21.png"
+			},
+			{
+				"id": 21,
+				"video": "https://midevku.pl/clips/2024_1/J/J22.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J22.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J22.png"
+			},
+			{
+				"id": 22,
+				"video": "https://midevku.pl/clips/2024_1/J/J23.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J23.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J23.png"
+			},
+			{
+				"id": 23,
+				"video": "https://midevku.pl/clips/2024_1/J/J24.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J24.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J24.png"
+			},
+			{
+				"id": 24,
+				"video": "https://midevku.pl/clips/2024_1/J/J25.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J25.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J25.png"
+			},
+			{
+				"id": 25,
+				"video": "https://midevku.pl/clips/2024_1/J/J26.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J26.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J26.png"
+			},
+			{
+				"id": 26,
+				"video": "https://midevku.pl/clips/2024_1/J/J27.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J27.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J27.png"
+			},
+			{
+				"id": 27,
+				"video": "https://midevku.pl/clips/2024_1/J/J28.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J28.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J28.png"
+			},
+			{
+				"id": 28,
+				"video": "https://midevku.pl/clips/2024_1/J/J29.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J29.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J29.png"
+			},
+			{
+				"id": 29,
+				"video": "https://midevku.pl/clips/2024_1/J/J30.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J30.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J30.png"
+			},
+			{
+				"id": 30,
+				"video": "https://midevku.pl/clips/2024_1/J/J31.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J31.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J31.png"
+			},
+			{
+				"id": 31,
+				"video": "https://midevku.pl/clips/2024_1/J/J32.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J32.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J32.png"
+			},
+			{
+				"id": 32,
+				"video": "https://midevku.pl/clips/2024_1/J/J33.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J33.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J33.png"
+			},
+			{
+				"id": 33,
+				"video": "https://midevku.pl/clips/2024_1/J/J34.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J34.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J34.png"
+			},
+			{
+				"id": 34,
+				"video": "https://midevku.pl/clips/2024_1/J/J35.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J35.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J35.png"
+			},
+			{
+				"id": 35,
+				"video": "https://midevku.pl/clips/2024_1/J/J36.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J36.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J36.png"
+			},
+			{
+				"id": 36,
+				"video": "https://midevku.pl/clips/2024_1/J/J37.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J37.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J37.png"
+			},
+			{
+				"id": 37,
+				"video": "https://midevku.pl/clips/2024_1/J/J38.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J38.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J38.png"
+			},
+			{
+				"id": 38,
+				"video": "https://midevku.pl/clips/2024_1/J/J39.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J39.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J39.png"
+			},
+			{
+				"id": 39,
+				"video": "https://midevku.pl/clips/2024_1/J/J40.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J40.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J40.png"
+			},
+			{
+				"id": 40,
+				"video": "https://midevku.pl/clips/2024_1/J/J41.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J41.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J41.png"
+			},
+			{
+				"id": 41,
+				"video": "https://midevku.pl/clips/2024_1/J/J42.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J42.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J42.png"
+			},
+			{
+				"id": 42,
+				"video": "https://midevku.pl/clips/2024_1/J/J43.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J43.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J43.png"
+			},
+			{
+				"id": 43,
+				"video": "https://midevku.pl/clips/2024_1/J/J44.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J44.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J44.png"
+			},
+			{
+				"id": 44,
+				"video": "https://midevku.pl/clips/2024_1/J/J45.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/J/J45.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/J/J45.png"
+			}
+		]
+	},
+
+	"K": {
+		"letter": "K",
+		"category": "Przewinienia wobec sędziów",
+		"translation": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/K/K1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/K/K2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/K/K3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/K/K4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/K/K5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/K/K6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/K/K7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/K/K8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/K/K9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/K/K10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/K/K11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/K/K12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/K/K13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/K/K14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/K/K15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/K/K16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/K/K17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/K/K18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/K/K18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/K/K18.png"
+			}
+		]
+	},
+	"L": {
+		"letter": "L",
+		"category": "Spalony",
+		"dictionary": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/L/L1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/L/L2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/L/L3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/L/L4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/L/L5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/L/L6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/L/L7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/L/L8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/L/L9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/L/L10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/L/L11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/L/L12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/L/L13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/L/L14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/L/L15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/L/L16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/L/L17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L17.png"
+			},
+			{
+				"id": 17,
+				"video": "https://midevku.pl/clips/2024_1/L/L18.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L18.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L18.png"
+			},
+			{
+				"id": 18,
+				"video": "https://midevku.pl/clips/2024_1/L/L19.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L19.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L19.png"
+			},
+			{
+				"id": 19,
+				"video": "https://midevku.pl/clips/2024_1/L/L20.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L20.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L20.png"
+			},
+			{
+				"id": 20,
+				"video": "https://midevku.pl/clips/2024_1/L/L21.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L21.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L21.png"
+			},
+			{
+				"id": 21,
+				"video": "https://midevku.pl/clips/2024_1/L/L22.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L22.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L22.png"
+			},
+			{
+				"id": 22,
+				"video": "https://midevku.pl/clips/2024_1/L/L23.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L23.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L23.png"
+			},
+			{
+				"id": 23,
+				"video": "https://midevku.pl/clips/2024_1/L/L24.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L24.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L24.png"
+			},
+			{
+				"id": 24,
+				"video": "https://midevku.pl/clips/2024_1/L/L25.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L25.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L25.png"
+			},
+			{
+				"id": 25,
+				"video": "https://midevku.pl/clips/2024_1/L/L26.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L26.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L26.png"
+			},
+			{
+				"id": 26,
+				"video": "https://midevku.pl/clips/2024_1/L/L27.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L27.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L27.png"
+			},
+			{
+				"id": 27,
+				"video": "https://midevku.pl/clips/2024_1/L/L28.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L28.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L28.png"
+			},
+			{
+				"id": 28,
+				"video": "https://midevku.pl/clips/2024_1/L/L29.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L29.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L29.png"
+			},
+			{
+				"id": 29,
+				"video": "https://midevku.pl/clips/2024_1/L/L30.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L30.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L30.png"
+			},
+			{
+				"id": 30,
+				"video": "https://midevku.pl/clips/2024_1/L/L31.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L31.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L31.png"
+			},
+			{
+				"id": 31,
+				"video": "https://midevku.pl/clips/2024_1/L/L32.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L32.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L32.png"
+			},
+			{
+				"id": 32,
+				"video": "https://midevku.pl/clips/2024_1/L/L33.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L33.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L33.png"
+			},
+			{
+				"id": 33,
+				"video": "https://midevku.pl/clips/2024_1/L/L34.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L34.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L34.png"
+			},
+			{
+				"id": 34,
+				"video": "https://midevku.pl/clips/2024_1/L/L35.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L35.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L35.png"
+			},
+			{
+				"id": 35,
+				"video": "https://midevku.pl/clips/2024_1/L/L36.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/L/L36.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/L/L36.png"
+			}
+		]
+	},
+	"M": {
+		"letter": "M",
+		"category": "Współpraca",
+		"translation": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/M/M1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/M/M2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/M/M3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/M/M4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/M/M5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/M/M6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/M/M7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/M/M8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/M/M9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/M/M10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/M/M11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/M/M12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/M/M13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/M/M14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M14.png"
+			},
+			{
+				"id": 14,
+				"video": "https://midevku.pl/clips/2024_1/M/M15.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M15.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M15.png"
+			},
+			{
+				"id": 15,
+				"video": "https://midevku.pl/clips/2024_1/M/M16.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M16.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M16.png"
+			},
+			{
+				"id": 16,
+				"video": "https://midevku.pl/clips/2024_1/M/M17.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/M/M17.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/M/M17.png"
+			}
+		]
+	},
+	"N": {
+		"letter": "N",
+		"category": "Przepisy Gry",
+		"translation": true,
+		"content": [
+			{
+				"id": 0,
+				"video": "https://midevku.pl/clips/2024_1/N/N1.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N1.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N1.png"
+			},
+			{
+				"id": 1,
+				"video": "https://midevku.pl/clips/2024_1/N/N2.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N2.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N2.png"
+			},
+			{
+				"id": 2,
+				"video": "https://midevku.pl/clips/2024_1/N/N3.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N3.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N3.png"
+			},
+			{
+				"id": 3,
+				"video": "https://midevku.pl/clips/2024_1/N/N4.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N4.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N4.png"
+			},
+			{
+				"id": 4,
+				"video": "https://midevku.pl/clips/2024_1/N/N5.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N5.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N5.png"
+			},
+			{
+				"id": 5,
+				"video": "https://midevku.pl/clips/2024_1/N/N6.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N6.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N6.png"
+			},
+			{
+				"id": 6,
+				"video": "https://midevku.pl/clips/2024_1/N/N7.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N7.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N7.png"
+			},
+			{
+				"id": 7,
+				"video": "https://midevku.pl/clips/2024_1/N/N8.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N8.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N8.png"
+			},
+			{
+				"id": 8,
+				"video": "https://midevku.pl/clips/2024_1/N/N9.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N9.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N9.png"
+			},
+			{
+				"id": 9,
+				"video": "https://midevku.pl/clips/2024_1/N/N10.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N10.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N10.png"
+			},
+			{
+				"id": 10,
+				"video": "https://midevku.pl/clips/2024_1/N/N11.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N11.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N11.png"
+			},
+			{
+				"id": 11,
+				"video": "https://midevku.pl/clips/2024_1/N/N12.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N12.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N12.png"
+			},
+			{
+				"id": 12,
+				"video": "https://midevku.pl/clips/2024_1/N/N13.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N13.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N13.png"
+			},
+			{
+				"id": 13,
+				"video": "https://midevku.pl/clips/2024_1/N/N14.mp4",
+				"thumbnail": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/th/N/N14.jpg",
+				"decision": "https://raw.githubusercontent.com/Kupi403/UEFA-Refereeing-Assistance-Programme/main/2024-1_assets/decisions/N/N14.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,45 @@
+// MEDIA QUERIES SIZES
+$mobile: 320px;
+$video-controls: 500px;
+$small: 576px;
+$tablet: 768px;
+$clips: 912px;
+$desktop: 1024px;
+// MEDIA QUERIES SIZES END
+
+// PADDING&MARGIN SIZES
+$space-small: 0.5em;
+$space-standard: 1em;
+$space-medium: 1.2em;
+$space-large: 1.5em;
+$space-xlarge: 2em;
+$footer-distance: 5em;
+// PADDING&MARGIN SIZES END
+
+// FONT SIZES
+$font-small: 0.8rem;
+$font-medium: 1rem;
+$font-large: 1.2rem;
+$font-xlarge: 1.5rem;
+// FONT SIZES END
+
+//FONT FACES
+$font-primary: 'Europa Title', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+//FONT FACES END
+
+//COLORS
+$background-shadow: rgba(0, 0, 0, 0.5);
+$expanded-element-shadow: #1325548f;
+$gradient: linear-gradient(319deg, rgba(18, 46, 120, 1) 0%, rgba(34, 68, 158, 1) 100%);
+$clip-shadow: linear-gradient(0deg, rgba(11, 20, 102, 0.678), rgba(0, 0, 0, 0));
+$error-background: #ff3333a8;
+$pure-white: #fff;
+$color-gray: #ddd;
+//COLORS END
+
+//OTHER
+$max-width: 1600px;
+$border-radius: 8px;
+$border-thickness: 3px;
+//OTHER END

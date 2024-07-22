@@ -1,0 +1,51 @@
+@import './config.scss';
+
+.header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: $space-standard;
+	&__link {
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: $space-standard;
+		color: $color-gray;
+		border-radius: $border-radius;
+
+		&--icon {
+			height: 20px;
+		}
+
+		&--span {
+			font-size: $font-small;
+		}
+	}
+	&__title {
+	align-self: center;
+		flex-grow: 1;
+		font-size: $font-large;
+
+	}
+
+}
+
+@media (min-width: $tablet) {
+	.header {
+        margin-bottom: $space-xlarge;
+		&__link {
+			&--span {
+                
+				font-size: $font-medium;
+			}
+		}
+
+		&__title {
+			font-size: $font-xlarge;
+		}
+	}
+}

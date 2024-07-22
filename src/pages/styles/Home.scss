@@ -1,0 +1,66 @@
+@import '../../Components/styles/config.scss';
+
+.home {
+	&__item {
+		border-radius: $border-radius;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: $space-standard;
+		margin: $space-standard;
+	}
+	&__title {
+		margin-left: $space-standard;
+	}
+	&__letter {
+		display: block;
+		position: relative;
+		font-family: $font-primary;
+		margin-right: $space-small;
+		width: 50px;
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: calc(100% + 0.5em);
+			height: 100%;
+			width: $border-thickness;
+			background-color: $pure-white;
+		}
+	}
+
+	&__description-box {
+		display: flex;
+		font-size: $font-medium;
+	}
+
+	&__expanded-box {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		padding: $space-standard;
+		height: auto;
+		border-radius: 0 0 10px 10px;
+		background-color: $expanded-element-shadow;
+		transition: 0.3s display;
+	}
+
+	&__expanded-item {
+		margin: $space-standard;
+		width: 100%;
+		font-size: $font-small;
+		background: $gradient;
+		border-radius: $border-radius;
+		text-transform: uppercase;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+@media (min-width: $small) {
+	.home {
+		&__expanded-item {
+			width: calc(30% - $space-xlarge);
+		}
+	}
+}

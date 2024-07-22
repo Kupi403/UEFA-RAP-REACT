@@ -1,0 +1,28 @@
+@import '../../Components/styles/config.scss';
+
+.error {
+	display: flex;
+	flex-direction: column;
+	background-color: $error-background;
+	padding: $space-standard;
+	flex: 1;
+	border-radius: $border-radius;
+
+	&__title {
+		font-size: $font-xlarge;
+	}
+
+	&__message {
+		font-size: $space-standard;
+		padding: $space-standard;
+	}
+
+	&__link {
+		margin-top: $space-standard;
+		flex: 1;
+		color: $pure-white;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+}

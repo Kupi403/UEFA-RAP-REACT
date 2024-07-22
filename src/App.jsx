@@ -1,22 +1,39 @@
+import { RouterProvider, createBrowserRouter, Navigate } from 'react-router-dom'
+import { AppProvider } from './store/AppContext'
+import Root from './pages/Root'
+import Home from './pages/Home'
+import CategoryClips from './pages/CategoryClips'
+import Clip from './pages/Clip'
+import ErrorPage from './pages/ErrorPage'
 import './App.css'
-import Container from '@mui/material/Container'
 
-import Navbar from './Components/Navbar'
-import Player from './Components/VideoPlayer/Player'
-
+const router = createBrowserRouter([
+	{
+		path: '/',
+		element: <Root />,
+		errorElement: <ErrorPage />,
+		children: [
+			{ index: true, element: <Home /> },
+			{
+				path: 'clips',
+				children: [
+					{ index: true, element: <Navigate to='/' /> },
+					{
+						path: ':category',
+						element: <CategoryClips />,
+					},
+					{ path: ':category/:id', element: <Clip /> },
+				],
+			},
+		],
+	},
+])
 
 const App = () => {
-
 	return (
-		<>
-			<Navbar />
-
-			<div className='box'>
-				<div className='main__section'>
-					<Player />
-				</div>
-			</div>
-		</>
+		<AppProvider>
+			<RouterProvider router={router} />
+		</AppProvider>
 	)
 }
 
