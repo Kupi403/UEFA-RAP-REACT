@@ -8,11 +8,11 @@ import './styles/CategoryClips.scss'
 
 const CategoryClips = () => {
 	const { category } = useParams()
-	const { language, translations } = useContext(AppContext)
+	const { version, language, translations } = useContext(AppContext)
 	const data = api[category.toUpperCase()]
 
 	useEffect(() => {
-		setTitle(api[category].category)
+		setTitle(version, api[category].category)
 	}, [])
 
 	if (!data) {
