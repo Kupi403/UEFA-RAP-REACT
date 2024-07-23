@@ -1,7 +1,7 @@
-const setTitle = (version, title) => {
+const setDocumentTitle = (version, title) => {
 	return (document.title = `UEFA RAP ${version} | ${title}`)
 }
 
-export default setTitle
+export default setDocumentTitle
 
 

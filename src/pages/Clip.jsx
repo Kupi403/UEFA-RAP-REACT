@@ -6,7 +6,7 @@ import { useSwipeable } from 'react-swipeable'
 import PageHeader from '../Components/PageHeader'
 import { IconButton } from '@mui/material'
 import { ArrowBack, ArrowForward, PlaylistAddCheck } from '@mui/icons-material'
-import setTitle from '../helpers/setDocumentTitle'
+import setDocumentTitle from '../helpers/setDocumentTitle'
 import isIOSDevice from '../helpers/isIOSDevice'
 import './styles/Clip.scss'
 
@@ -20,9 +20,8 @@ const Clip = () => {
 	const currentClipId = +id
 	const playerWrapperRef = useRef()
 
-
 	useEffect(() => {
-		setTitle(version, `${category}${id}`)
+		setDocumentTitle(version, `${category}${id}`)
 		isIOSDevice()
 	}, [id])
 

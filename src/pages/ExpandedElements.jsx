@@ -15,6 +15,7 @@ const ExpandedElements = ({ elements }) => {
 		background: 'linear-gradient(319deg, rgba(18, 46, 120, 1) 0%, rgba(34, 68, 158, 1) 100%)',
 	})
 
+
 	const { translations } = useContext(AppContext)
 
 	return elements.map((element, id) => {

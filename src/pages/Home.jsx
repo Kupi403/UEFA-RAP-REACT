@@ -17,7 +17,7 @@ const Home = () => {
 
 	useEffect(() => {
 		setDocumentTitle(version, 'Menu')
-	}, [])
+	}, [version])
 
 	const AccordionButton = styled(Button)({
 		display: 'flex',
@@ -47,7 +47,6 @@ const Home = () => {
 		setIsAccordionOpen({ ...isAccordionOpen, [id]: !isAccordionOpen[id] })
 	}
 
-
 	return (
 		<div className='home'>
 			<AccordionButton
@@ -56,7 +55,7 @@ const Home = () => {
 				onClick={() => handleOpenAccordion(0)}>
 				<div className='home__description-box'>
 					<p className='home__letter'>a-g</p>
-					<p className='home__title'>{translations.home.expandedBar1.title}</p>
+					<p className='home__title'>{translations.home.expandedBar1}</p>
 				</div>
 				<span className='home__chevron'>
 					<ExpandMoreIcon
@@ -77,7 +76,7 @@ const Home = () => {
 				onClick={() => handleOpenAccordion(1)}>
 				<div className='home__description-box'>
 					<p className='home__letter'>h-k</p>
-					<p className='home__title'>{translations.home.expandedBar2.title}</p>
+					<p className='home__title'>{translations.home.expandedBar2}</p>
 				</div>
 				<span className='home__chevron'>
 					<ExpandMoreIcon
@@ -99,9 +98,9 @@ const Home = () => {
 					<AccordionButton className='home__item'>
 						<div className='home__description-box'>
 							<p className='home__letter'>{category[0]}</p>
-							<p className='home__title'>{`${translations.home[category[0].toLowerCase()]} (${category[1].letter + 1} - ${
-								category[1].letter + category[1].content.length
-							})`}</p>
+							<p className='home__title'>{`${translations.home[category[0].toLowerCase()]} (${
+								category[1].letter + 1
+							} - ${category[1].letter + category[1].content.length})`}</p>
 						</div>
 					</AccordionButton>
 				</Link>
