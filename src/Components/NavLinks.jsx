@@ -1,15 +1,17 @@
 import { useState, useEffect, useContext } from 'react'
 import { AppContext } from '../store/AppContext'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { IconButton, Menu, MenuItem, Box } from '@mui/material'
 import { Language, Slideshow, ArrowDropDown, History } from '@mui/icons-material'
 import plIcon from '../assets/poland-flag-icon-16.png'
 import enIcon from '../assets/united-kingdom-flag-icon-16.png'
 
 const NavLinks = ({ onToggleMenu }) => {
-	const { version, versions, setVersion, setLanguage } = useContext(AppContext)
+	const { versions, setVersion, setLanguage } = useContext(AppContext)
 	const [versionAnchor, setVersionAnchor] = useState(null)
 	const [languageAnchor, setLanguageAnchor] = useState(null)
+
+	const navigate = useNavigate()
 
 	const { translations } = useContext(AppContext)
 	useEffect(() => {
@@ -49,6 +51,7 @@ const NavLinks = ({ onToggleMenu }) => {
 
 	const handleVersionChange = version => {
 		onToggleMenu(false)
+		navigate('/')
 		setVersion(version)
 		handleMenuClose('version')
 	}

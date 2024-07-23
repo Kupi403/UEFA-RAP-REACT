@@ -5,11 +5,10 @@ import NavLinks from './NavLinks'
 import { Divide as Hamburger } from 'hamburger-react'
 import './styles/Navbar.scss'
 
-
 const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-	const {version} = useContext(AppContext)
+	const { version } = useContext(AppContext)
 
 	return (
 		<nav className='navbar'>
@@ -21,11 +20,8 @@ const Navbar = () => {
 					<span className='navbar__logo-title--year'>{version}</span>
 				</NavLink>
 				<div className='navbar__links navbar__links--desktop'>
-				
-					<NavLinks onToggleMenu={setIsMenuOpen}/>
+					<NavLinks onToggleMenu={setIsMenuOpen} />
 				</div>
-
-				
 
 				<Hamburger
 					className='navbar__hamburger'
@@ -39,7 +35,7 @@ const Navbar = () => {
 
 				{isMenuOpen && (
 					<div className='navbar__links navbar__links--mobile'>
-						<NavLinks onToggleMenu={setIsMenuOpen}/>
+						<NavLinks onToggleMenu={setIsMenuOpen} />
 					</div>
 				)}
 			</div>
