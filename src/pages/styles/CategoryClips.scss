@@ -10,6 +10,27 @@
 		text-align: center;
 	}
 
+	&__loading-clip {
+		position: relative;
+		width: 45%;
+		height: 200px;
+		border-radius: $border-radius;
+		background-color: #e0e0e0;
+		background-color: $player-background;
+		overflow: hidden;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: $loading-gradient;
+			animation: loadingShimmer 1.2s infinite;
+		}
+	}
+
 	&__clip {
 		position: relative;
 		width: 45%;
@@ -64,9 +85,21 @@
 
 @media (min-width: $clips) {
 	.category-clips {
+		&__loading-clip {
+			width: 30%;
+		}
 		&__clip {
 			height: auto;
-			width: auto;
+			width: 30%;
 		}
+	}
+}
+
+@keyframes loadingShimmer {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
 	}
 }

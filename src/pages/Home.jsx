@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from 'react'
 import { AppContext } from '../store/AppContext'
 import { Link } from 'react-router-dom'
-import api from '../assets/app-clips-2023-2.json'
+import api from '../assets/app-clips.json'
 import ExpandedElements from './ExpandedElements'
 import setDocumentTitle from '../helpers/setDocumentTitle'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
