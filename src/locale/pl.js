@@ -10,6 +10,8 @@ const pl = {
 		h: 'korzyść',
 		i: 'konfrontacje',
 		j: 'reprymenda',
+		expandedBar1: 'podejmowanie decyzji',
+		expandedBar2: 'zarządzanie',
 		k: 'przewinienia wobec sędziów',
 		l: 'spalony',
 		m: 'współpraca',
