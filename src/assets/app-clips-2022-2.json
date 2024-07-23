@@ -1,0 +1,2281 @@
+{
+        "dictionary": {
+          "A": {
+            "no offence": "brak przewinienia",
+            "indirect free kick": "rzut wolny pośredni",
+            "direct free kick": "rzut wolny bezpośredni",
+            "penalty kick": "rzut karny",
+            "careless": "nieostrożnie",
+            "reckless": "nierozważnie",
+            "violent conduct serious foul play": "poważny, rażący faul"
+          },
+          "B": {
+            "denying a goal or an obvious goal-scoring opportunity (DOGSO)": "przerwanie realnej szansy na zdobycie bramki",
+            "other": "inne",
+            "reckless challenge": "nierozważny atak",
+            "stopping a promising attack": "przerwanie korzystnej akcji",
+            "stopping a promising attack while not attempting to play the ball": "przerwanie korzystnej akcji bez walki o piłkę",
+            "DOGSO while attepmting the ball": "przerwanie realnej szansy na zdobycie bramki w walce o piłkę"
+          },
+          "C": {
+            "offence": "przewinienie",
+            "no offence": "brak przewinienia",
+            "ball movement towards hand": "piłka zmierzająca w stronę ręki",
+            "ball coming from a short distance / unexpected ball": "piłka zmierzająca z bliskiej odległości / nieoczekiwana piłka",
+            "hand / arm in natural position": "ręka naturalnie ułożona",
+            "player tries to avoid hand contact with the ball": "zawodnik próbuje uniknąć kontaktu piłki z ręką",
+            "player unable to avoid hand contact with the ball": "zawodnik nie może uniknąć kontaktu piłki z ręką",
+            "hand / arm supports the body, but not extended": "ręka wspiera ciało ale nie powiększa jego obrysu",
+            "ball coming directly from player's own head or body": "piłka zmierza bezpośrednio od głowy lub ciała zawodnika",
+            "other": "inne",
+            "hand moves towards the ball": "ręka zmierza w kierunku piłki",
+            "distance not short / ball not unexpected": "dystans od piłki nie jest bliski / piłka oczekiwana",
+            "hand / arm in unnatural position / beyond shoulder level": "ręka w nienaturalnej pozycji / powyżej barku",
+            "hand / arm makes body unnaturaly bigger": "ręka powiększa obrys ciała",
+            "player does not try to avoid hand contact with the ball": "zawodnik nie próbuje uniknąć kontaktu piłki z ręką",
+            "attacker gains possession / control of the ball after touching it with hand / arm and scores / or creates GSO": "napastnik ma posiadanie / kontrolę nad piłką po dotknięciu jej ręką i strzela bramkę / kreuje realną szansę na zdobycie bramki",
+            "stopping or interfering with a promising attack": "przerwanie korzystnej akcji",
+            "attempt to score or scoring a goal": "próba zdobycia lub zdobycie bramki",
+            "clear attempt to deceive the referee": "świadoma próba zmylenia sędziego",
+            "unsuccessful attempt to prevent a goal": "nieudana próba zapobiegnięcia utraty bramki",
+            "no disciplinary sanction": "brak kary dyscyplinarnej"
+          },
+          "D": {
+            "no offence": "brak przewinienia",
+            "indirect free kick": "rzut wolny pośredni",
+            "direct free kick": "rzut wolny bezpośredni",
+            "penalty kick": "rzut karny",
+            "promising attack stopped": "przerwanie korzystnej akcji",
+            "showing lack of respect for the game (LOR)": "brak szacunku do zawodów",
+            "reckless challenge": "nierozważny atak",
+            "other": "inne"
+          },
+          "E": {
+            "no offence": "brak przewinienia",
+            "indirect free kick": "rzut wolny pośredni",
+            "direct free kick": "rzut wolny bezpośredni",
+            "penalty kick": "rzut karny",
+            "careless": "nieostrożnie",
+            "reckless": "nierozważnie",
+            "violent conduct serious foul play": "poważny, rażący faul"
+          },
+          "F": {
+            "no offence": "brak przewinienia",
+            "indirect free kick": "rzut wolny pośredni",
+            "direct free kick": "rzut wolny bezpośredni",
+            "penalty kick": "rzut karny",
+            "careless": "nieostrożnie",
+            "reckless": "nierozważnie",
+            "violent conduct serious foul play": "poważny, rażący faul",
+            "no promising attack stopped / no reckless challenge": "brak przerwania korzystnej akcji / nierozważnego ataku",
+            "promising attacked stopped while attempting to play the ball": "przerwanie korzystnej akcji w walce o piłkę",
+            "reckless challenge": "nierozważny atak",
+            "stopping a promising attack": "przerwanie korzystnej akcji",
+            "stopping a promising attack while not attempting to play the ball": "przerwanie korzystnej akcji bez walki o piłkę",
+            "DOGSO while attepmting the ball": "przerwanie realnej szansy na zdobycie bramki w walce o piłkę",
+            "unsporting behavior": "simulation - niesportowe zachowanie - symulacja",
+            "other": "inne"
+          },
+          "G": {
+            "no offence": "brak przewinienia",
+            "indirect free kick": "rzut wolny pośredni",
+            "direct free kick": "rzut wolny bezpośredni",
+            "penalty kick": "rzut karny",
+            "deceiving the referee when no contact": "zmylenie sędziego, gdy nie ma kontaktu",
+            "using slight contact to deceive the referee": "skorzystanie z drobnego kontaktu, aby oszukać sędziego",
+            "anticipating contact and trying to deceive the referee": "oczekiwanie na kontakt i próba zmylenia sędziego",
+            "initiating contact to deceive the referee": "zainicjowanie kontaktu aby zmylić sędziego",
+            "SPA / other": "przerwanie korzystnej akcji / inne"
+          },
+          "L": {
+            "not offside offence": "brak spalonego",
+            "offside offence": "spalony",
+            "not": "brak",
+            "interfering with an opponent": "wpływ na przeciwnika poprzez",
+            "clearly obstructing opponent's line ov vision": "klarowne zasłanianie pola widzenia przeciwnika",
+            "challenging opponent for the ball": "walka o piłkę z przeciwnikiem",
+            "clearly attempting to play the ball which is close to him / impact on opponent": "ewidentna próba zagrania piłki, która jest blisko niego / wywieranie wpływu na przeciwnika",
+            "making obvious action / clear impact on ability of opponent to play the ball": "wywieranie wpływu na możliwość zagrania piłki przez przeciwnika"
+          }
+        },
+        "A": {
+          "letter": "A",
+          "category": "Przewinienia",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A1.jpg",
+              "video": "https://skproject.link/clips/A/A1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A1.png"
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A2.jpg",
+              "video": "https://skproject.link/clips/A/A2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A3.jpg",
+              "video": "https://skproject.link/clips/A/A3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A4.jpg",
+              "video": "https://skproject.link/clips/A/A4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A5.jpg",
+              "video": "https://skproject.link/clips/A/A5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A6.jpg",
+              "video": "https://skproject.link/clips/A/A6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A7.jpg",
+              "video": "https://skproject.link/clips/A/A7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A7.png"
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A8.jpg",
+              "video": "https://skproject.link/clips/A/A8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A8.png"
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A9.jpg",
+              "video": "https://skproject.link/clips/A/A9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A9.png"
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A10.jpg",
+              "video": "https://skproject.link/clips/A/A10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A10.png"
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A11.jpg",
+              "video": "https://skproject.link/clips/A/A11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A11.png"
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A12.jpg",
+              "video": "https://skproject.link/clips/A/A12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A12.png"
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A13.jpg",
+              "video": "https://skproject.link/clips/A/A13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A13.png"
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A14.jpg",
+              "video": "https://skproject.link/clips/A/A14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A14.png"
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A15.jpg",
+              "video": "https://skproject.link/clips/A/A15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A15.png"
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A16.jpg",
+              "video": "https://skproject.link/clips/A/A16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A16.png"
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A17.jpg",
+              "video": "https://skproject.link/clips/A/A17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A17.png"
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A18.jpg",
+              "video": "https://skproject.link/clips/A/A18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A18.png"
+            },
+            {
+              "id": 18,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A19.jpg",
+              "video": "https://skproject.link/clips/A/A19.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A19.png"
+            },
+            {
+              "id": 19,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A20.jpg",
+              "video": "https://skproject.link/clips/A/A20.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A20.png"
+            },
+            {
+              "id": 20,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A21.jpg",
+              "video": "https://skproject.link/clips/A/A21.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A21.png"
+            },
+            {
+              "id": 21,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A22.jpg",
+              "video": "https://skproject.link/clips/A/A22.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A22.png"
+            },
+            {
+              "id": 22,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A23.jpg",
+              "video": "https://skproject.link/clips/A/A23.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A23.png"
+            },
+            {
+              "id": 23,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A24.jpg",
+              "video": "https://skproject.link/clips/A/A24.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A24.png"
+            },
+            {
+              "id": 24,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A25.jpg",
+              "video": "https://skproject.link/clips/A/A25.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A25.png"
+            },
+            {
+              "id": 25,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A26.jpg",
+              "video": "https://skproject.link/clips/A/A26.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A26.png"
+            },
+            {
+              "id": 26,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A27.jpg",
+              "video": "https://skproject.link/clips/A/A27.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A27.png",
+              "additional-explanation": true,
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/A/A27.png",
+              "translation": "Zawodnik czerwony zagrywa piłkę i następnie stempluje stopę/kostkę przeciwnika z umiarkowaną siłą. Jednakże piłka musi być zagrana bez złośliwości i zawodnik czerwony, widząc przeciwnika naprzeciw niego, ukazuje brak troski o jego zdrowie. Takie sytuacje powinny być określane jako nierozważne."
+            },
+            {
+              "id": 27,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A28.jpg",
+              "video": "https://skproject.link/clips/A/A28.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A28.png"
+            },
+            {
+              "id": 28,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A29.jpg",
+              "video": "https://skproject.link/clips/A/A29.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A29.png"
+            },
+            {
+              "id": 29,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A30.jpg",
+              "video": "https://skproject.link/clips/A/A30.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A30.png"
+            },
+            {
+              "id": 30,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A31.jpg",
+              "video": "https://skproject.link/clips/A/A31.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A31.png"
+            },
+            {
+              "id": 31,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A32.jpg",
+              "video": "https://skproject.link/clips/A/A32.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A32.png"
+            },
+            {
+              "id": 32,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A33.jpg",
+              "video": "https://skproject.link/clips/A/A33.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A33.png"
+            },
+            {
+              "id": 33,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A34.jpg",
+              "video": "https://skproject.link/clips/A/A34.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A34.png"
+            },
+            {
+              "id": 34,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A35.jpg",
+              "video": "https://skproject.link/clips/A/A35.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A35.png"
+            },
+            {
+              "id": 35,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A36.jpg",
+              "video": "https://skproject.link/clips/A/A36.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A36.png"
+            },
+            {
+              "id": 36,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A37.jpg",
+              "video": "https://skproject.link/clips/A/A37.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A37.png"
+            },
+            {
+              "id": 37,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A38.jpg",
+              "video": "https://skproject.link/clips/A/A38.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A38.png"
+            },
+            {
+              "id": 38,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A39.jpg",
+              "video": "https://skproject.link/clips/A/A39.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A39.png"
+            },
+            {
+              "id": 39,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A40.jpg",
+              "video": "https://skproject.link/clips/A/A40.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A40.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/A/A40.png",
+              "translation": "Zawodnik niebieski zagrywa piłkę i następnie stempluje stopę/kostkę przeciwnika z umiarkowaną siłą. Jednakże piłka musi być zagrana bez złośliwości i zawodnik niebieski, widząc przeciwnika naprzeciw niego, ukazuje brak troski o jego zdrowie. Takie sytuacje powinny być określane jako nierozważne."
+            },
+            {
+              "id": 40,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A41.jpg",
+              "video": "https://skproject.link/clips/A/A41.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A41.png"
+            },
+            {
+              "id": 41,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A42.jpg",
+              "video": "https://skproject.link/clips/A/A42.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A42.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/A/A42.png",
+              "translation": "Jeśli w opinii sędziego czerwony zawodnik rozmyslnie stempluje nogę rywala - zawodnik powinien być wykluczony. W innym przypadku powinien byc napomniany za brak rozwagi."
+            },
+            {
+              "id": 42,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A43.jpg",
+              "video": "https://skproject.link/clips/A/A43.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A43.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/A/A43.png",
+              "translation": "Jeśli w opinii sędziego pomarańczowy zawodnik rozmyslnie stempluje nogę rywala - zawodnik powinien być wykluczony. W innym przypadku powinien byc napomniany za brak rozwagi."
+            },
+            {
+              "id": 43,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A44.jpg",
+              "video": "https://skproject.link/clips/A/A44.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A44.png"
+            },
+            {
+              "id": 44,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A45.jpg",
+              "video": "https://skproject.link/clips/A/A45.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A45.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/A/A43.png",
+              "translation": "Zawodnik żółty poślizgnąwszy się stempluje kostkę rywala z umiarkowaną siłą. Niemniej jednak zawodnik powinien grać z konieczną troską o zdrowie rywali. Takie sytuacje powinny być traktowane jako nierozważne."
+            },
+            {
+              "id": 45,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A46.jpg",
+              "video": "https://skproject.link/clips/A/A46.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A46.png"
+            },
+            {
+              "id": 46,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A47.jpg",
+              "video": "https://skproject.link/clips/A/A47.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A47.png"
+            },
+            {
+              "id": 47,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A48.jpg",
+              "video": "https://skproject.link/clips/A/A48.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A48.png"
+            },
+            {
+              "id": 48,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/A/A49.jpg",
+              "video": "https://skproject.link/clips/A/A49.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/A/A49.png"
+            }
+          ]
+        },
+        "B": {
+          "letter": "B",
+          "category": "DOGSO-SPA",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B1.jpg",
+              "video": "https://skproject.link/clips/B/B1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B1.png"
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B2.jpg",
+              "video": "https://skproject.link/clips/B/B2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B3.jpg",
+              "video": "https://skproject.link/clips/B/B3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B4.jpg",
+              "video": "https://skproject.link/clips/B/B4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B5.jpg",
+              "video": "https://skproject.link/clips/B/B5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B6.jpg",
+              "video": "https://skproject.link/clips/B/B6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B7.jpg",
+              "video": "https://skproject.link/clips/B/B7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B7.png"
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B8.jpg",
+              "video": "https://skproject.link/clips/B/B8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B8.png"
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B9.jpg",
+              "video": "https://skproject.link/clips/B/B9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B9.png"
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B10.jpg",
+              "video": "https://skproject.link/clips/B/B10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B10.png"
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B11.jpg",
+              "video": "https://skproject.link/clips/B/B11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B11.png"
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B12.jpg",
+              "video": "https://skproject.link/clips/B/B12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B12.png"
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B13.jpg",
+              "video": "https://skproject.link/clips/B/B13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B13.png"
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B14.jpg",
+              "video": "https://skproject.link/clips/B/B14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B14.png"
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B15.jpg",
+              "video": "https://skproject.link/clips/B/B15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B15.png"
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B16.jpg",
+              "video": "https://skproject.link/clips/B/B16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B16.png"
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B17.jpg",
+              "video": "https://skproject.link/clips/B/B17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B17.png"
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B18.jpg",
+              "video": "https://skproject.link/clips/B/B18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B18.png"
+            },
+            {
+              "id": 18,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B19.jpg",
+              "video": "https://skproject.link/clips/B/B19.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B19.png"
+            },
+            {
+              "id": 19,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/B/B20.jpg",
+              "video": "https://skproject.link/clips/B/B20.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/B/B20.png"
+            }
+          ]
+        },
+        "C": {
+          "letter": "C",
+          "category": "Zagranie ręką",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C1.jpg",
+              "video": "https://skproject.link/clips/C/C1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C1.png"
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C2.jpg",
+              "video": "https://skproject.link/clips/C/C2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C3.jpg",
+              "video": "https://skproject.link/clips/C/C3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C4.jpg",
+              "video": "https://skproject.link/clips/C/C4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C5.jpg",
+              "video": "https://skproject.link/clips/C/C5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C6.jpg",
+              "video": "https://skproject.link/clips/C/C6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C7.jpg",
+              "video": "https://skproject.link/clips/C/C7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C7.png"
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C8.jpg",
+              "video": "https://skproject.link/clips/C/C8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C8.png"
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C9.jpg",
+              "video": "https://skproject.link/clips/C/C9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C9.png"
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C10.jpg",
+              "video": "https://skproject.link/clips/C/C10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C10.png"
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C11.jpg",
+              "video": "https://skproject.link/clips/C/C11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C11.png"
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C12.jpg",
+              "video": "https://skproject.link/clips/C/C12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C12.png"
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C13.jpg",
+              "video": "https://skproject.link/clips/C/C13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C13.png"
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C14.jpg",
+              "video": "https://skproject.link/clips/C/C14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C14.png"
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C15.jpg",
+              "video": "https://skproject.link/clips/C/C15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C15.png"
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C16.jpg",
+              "video": "https://skproject.link/clips/C/C16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C16.png"
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C17.jpg",
+              "video": "https://skproject.link/clips/C/C17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C17.png"
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C18.jpg",
+              "video": "https://skproject.link/clips/C/C18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C18.png"
+            },
+            {
+              "id": 18,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C19.jpg",
+              "video": "https://skproject.link/clips/C/C19.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C19.png"
+            },
+            {
+              "id": 19,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C20.jpg",
+              "video": "https://skproject.link/clips/C/C20.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C20.png"
+            },
+            {
+              "id": 20,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C21.jpg",
+              "video": "https://skproject.link/clips/C/C21.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C21.png"
+            },
+            {
+              "id": 21,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C22.jpg",
+              "video": "https://skproject.link/clips/C/C22.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C22.png"
+            },
+            {
+              "id": 22,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C23.jpg",
+              "video": "https://skproject.link/clips/C/C23.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C23.png"
+            },
+            {
+              "id": 23,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C24.jpg",
+              "video": "https://skproject.link/clips/C/C24.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C24.png"
+            },
+            {
+              "id": 24,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C25.jpg",
+              "video": "https://skproject.link/clips/C/C25.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C25.png"
+            },
+            {
+              "id": 25,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C26.jpg",
+              "video": "https://skproject.link/clips/C/C26.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C26.png"
+            },
+            {
+              "id": 26,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C27.jpg",
+              "video": "https://skproject.link/clips/C/C27.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C27.png"
+            },
+            {
+              "id": 27,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C28.jpg",
+              "video": "https://skproject.link/clips/C/C28.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C28.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/C/C28.png",
+              "translation": "Jeśli w opini sędziego obrońca dotknął piłkę ręką w konsekwencji fizycznego kontaktu ze strony napastnika, powinien być przyznany rzut wolny dla drużyny obrońcy"
+            },
+            {
+              "id": 28,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C29.jpg",
+              "video": "https://skproject.link/clips/C/C29.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C29.png"
+            },
+            {
+              "id": 29,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C30.jpg",
+              "video": "https://skproject.link/clips/C/C30.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C30.png"
+            },
+            {
+              "id": 30,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C31.jpg",
+              "video": "https://skproject.link/clips/C/C31.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C31.png"
+            },
+            {
+              "id": 31,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C32.jpg",
+              "video": "https://skproject.link/clips/C/C32.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C32.png"
+            },
+            {
+              "id": 32,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C33.jpg",
+              "video": "https://skproject.link/clips/C/C33.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C33.png"
+            },
+            {
+              "id": 33,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C34.jpg",
+              "video": "https://skproject.link/clips/C/C34.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C34.png"
+            },
+            {
+              "id": 34,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C35.jpg",
+              "video": "https://skproject.link/clips/C/C35.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C35.png"
+            },
+            {
+              "id": 35,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/C/C36.jpg",
+              "video": "https://skproject.link/clips/C/C36.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/C/C36.png"
+            }
+          ]
+        },
+        "D": {
+          "letter": "D",
+          "category": "Trzymanie",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D1.jpg",
+              "video": "https://skproject.link/clips/D/D1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D1.png"
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D2.jpg",
+              "video": "https://skproject.link/clips/D/D2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D3.jpg",
+              "video": "https://skproject.link/clips/D/D3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D4.jpg",
+              "video": "https://skproject.link/clips/D/D4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D5.jpg",
+              "video": "https://skproject.link/clips/D/D5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D6.jpg",
+              "video": "https://skproject.link/clips/D/D6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D7.jpg",
+              "video": "https://skproject.link/clips/D/D7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D7.png"
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D8.jpg",
+              "video": "https://skproject.link/clips/D/D8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D8.png"
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D9.jpg",
+              "video": "https://skproject.link/clips/D/D9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D9.png"
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D10.jpg",
+              "video": "https://skproject.link/clips/D/D10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D10.png"
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D11.jpg",
+              "video": "https://skproject.link/clips/D/D11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D11.png"
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D12.jpg",
+              "video": "https://skproject.link/clips/D/D12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D12.png"
+            },
+            {
+              "id": 12,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D13.jpg",
+              "video": "https://skproject.link/clips/D/D13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D13.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/D/D13.png",
+              "translation": "Jeśli złe zachowanie występuje przed wykonaniem rzutu rożnego, sędzia powinien powtórzyć rzut i zastosować odpowiednie sankcje dyscyplinarne."
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D14.jpg",
+              "video": "https://skproject.link/clips/D/D14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D14.png"
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D15.jpg",
+              "video": "https://skproject.link/clips/D/D15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D15.png"
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D16.jpg",
+              "video": "https://skproject.link/clips/D/D16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D16.png"
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D17.jpg",
+              "video": "https://skproject.link/clips/D/D17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D17.png"
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/D/D18.jpg",
+              "video": "https://skproject.link/clips/D/D18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/D/D18.png"
+            }
+          ]
+        },
+        "E": {
+          "letter": "E",
+          "category": "Atakowanie rękoma",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E1.jpg",
+              "video": "https://skproject.link/clips/E/E1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E1.png"
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E2.jpg",
+              "video": "https://skproject.link/clips/E/E2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E3.jpg",
+              "video": "https://skproject.link/clips/E/E3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E4.jpg",
+              "video": "https://skproject.link/clips/E/E4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E5.jpg",
+              "video": "https://skproject.link/clips/E/E5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E6.jpg",
+              "video": "https://skproject.link/clips/E/E6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E7.jpg",
+              "video": "https://skproject.link/clips/E/E7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E7.png"
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E8.jpg",
+              "video": "https://skproject.link/clips/E/E8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E8.png"
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E9.jpg",
+              "video": "https://skproject.link/clips/E/E9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E9.png"
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/E/E10.jpg",
+              "video": "https://skproject.link/clips/E/E10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/E/E10.png"
+            }
+          ]
+        },
+        "F": {
+          "letter": "F",
+          "category": "Decyzje w polu karnym",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F1.jpg",
+              "video": "https://skproject.link/clips/F/F1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F1.png"
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F2.jpg",
+              "video": "https://skproject.link/clips/F/F2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F3.jpg",
+              "video": "https://skproject.link/clips/F/F3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F4.jpg",
+              "video": "https://skproject.link/clips/F/F4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F5.jpg",
+              "video": "https://skproject.link/clips/F/F5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F6.jpg",
+              "video": "https://skproject.link/clips/F/F6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F7.jpg",
+              "video": "https://skproject.link/clips/F/F7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F7.png"
+            },
+            {
+              "id": 7,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F8.jpg",
+              "video": "https://skproject.link/clips/F/F8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F8.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F8.png",
+              "translation": "Fizyczny kontakt ze stopą jest znikomy. Sędziowie muszą pamiętać, że rzut karny jest przyznawany tylko za klarowne przewinienia!"
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F9.jpg",
+              "video": "https://skproject.link/clips/F/F9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F9.png"
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F10.jpg",
+              "video": "https://skproject.link/clips/F/F10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F10.png"
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F11.jpg",
+              "video": "https://skproject.link/clips/F/F11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F11.png"
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F12.jpg",
+              "video": "https://skproject.link/clips/F/F12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F12.png"
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F13.jpg",
+              "video": "https://skproject.link/clips/F/F13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F13.png"
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F14.jpg",
+              "video": "https://skproject.link/clips/F/F14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F14.png"
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F15.jpg",
+              "video": "https://skproject.link/clips/F/F15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F15.png"
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F16.jpg",
+              "video": "https://skproject.link/clips/F/F16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F16.png"
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F17.jpg",
+              "video": "https://skproject.link/clips/F/F17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F17.png"
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F18.jpg",
+              "video": "https://skproject.link/clips/F/F18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F18.png"
+            },
+            {
+              "id": 18,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F19.jpg",
+              "video": "https://skproject.link/clips/F/F19.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F19.png"
+            },
+            {
+              "id": 19,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F20.jpg",
+              "video": "https://skproject.link/clips/F/F20.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F20.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F20.png",
+              "translation": "Fizyczny kontakt ze stopą jest znikomy. Sędziowie muszą pamiętać, że rzut karny jest przyznawany tylko za klarowne przewinienia!"
+            },
+            {
+              "id": 20,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F21.jpg",
+              "video": "https://skproject.link/clips/F/F21.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F21.png"
+            },
+            {
+              "id": 21,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F22.jpg",
+              "video": "https://skproject.link/clips/F/F22.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F22.png"
+            },
+            {
+              "id": 22,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F23.jpg",
+              "video": "https://skproject.link/clips/F/F23.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F23.png"
+            },
+            {
+              "id": 23,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F24.jpg",
+              "video": "https://skproject.link/clips/F/F24.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F24.png"
+            },
+            {
+              "id": 24,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F25.jpg",
+              "video": "https://skproject.link/clips/F/F25.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F25.png"
+            },
+            {
+              "id": 25,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F26.jpg",
+              "video": "https://skproject.link/clips/F/F26.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F26.png"
+            },
+            {
+              "id": 26,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F27.jpg",
+              "video": "https://skproject.link/clips/F/F27.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F27.png"
+            },
+            {
+              "id": 27,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F28.jpg",
+              "video": "https://skproject.link/clips/F/F28.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F28.png"
+            },
+            {
+              "id": 28,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F29.jpg",
+              "video": "https://skproject.link/clips/F/F29.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F29.png"
+            },
+            {
+              "id": 29,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F30.jpg",
+              "video": "https://skproject.link/clips/F/F30.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F30.png"
+            },
+            {
+              "id": 30,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F31.jpg",
+              "video": "https://skproject.link/clips/F/F31.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F31.png"
+            },
+            {
+              "id": 31,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F32.jpg",
+              "video": "https://skproject.link/clips/F/F32.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F32.png"
+            },
+            {
+              "id": 32,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F33.jpg",
+              "video": "https://skproject.link/clips/F/F33.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F33.png"
+            },
+            {
+              "id": 33,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F34.jpg",
+              "video": "https://skproject.link/clips/F/F34.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F34.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F34.png",
+              "translation": "Obrońca popełnił przewinienie przed tym jak napastnik będący na pozycji spalonej wpłynął na grę. W takich przypadkach rzut karny powinien być przyznany."
+            },
+            {
+              "id": 34,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F35.jpg",
+              "video": "https://skproject.link/clips/F/F35.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F35.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F35.png",
+              "translation": "Biały napastnik znajdujący się na pozycji spalonej już bierze udział w grze, gdy obrońca go kopie. Gra powinna być wstrzymana i wznowiona rzutem wolnym pośrednim, jako że zaistniał spalony."
+            },
+            {
+              "id": 35,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F36.jpg",
+              "video": "https://skproject.link/clips/F/F36.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F36.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F36.png",
+              "translation": "Napastnik znajdujący się na pozycji spalonej już bierze udział w grze, gdy obrońca go kopie. Zaistniał spalony i powinien być przyznany rzut wolny pośredni. Niemniej jednak obrońca powinien być napomniany za nierozważny atak."
+            },
+            {
+              "id": 36,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F37.jpg",
+              "video": "https://skproject.link/clips/F/F37.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F37.png"
+            },
+            {
+              "id": 37,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F38.jpg",
+              "video": "https://skproject.link/clips/F/F38.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F38.png"
+            },
+            {
+              "id": 38,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F39.jpg",
+              "video": "https://skproject.link/clips/F/F39.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F39.png"
+            },
+            {
+              "id": 39,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F40.jpg",
+              "video": "https://skproject.link/clips/F/F40.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F40.png"
+            },
+            {
+              "id": 40,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F41.jpg",
+              "video": "https://skproject.link/clips/F/F41.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F41.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F41.png",
+              "translation": "Zawodnik niebieski nr 10 trzyma obrońcę przed jego zagraniem piłki ręką. Po sprawdzeniu sędzia prawidłowo podyktował rzut wolny bezpośredni dla drużyny obrońcy."
+            },
+            {
+              "id": 41,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F42.jpg",
+              "video": "https://skproject.link/clips/F/F42.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F42.png"
+            },
+            {
+              "id": 42,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F43.jpg",
+              "video": "https://skproject.link/clips/F/F43.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F43.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F43.png",
+              "translation": "Fizyczny kontakt ze stopą jest znikomy. Sędziowie muszą pamiętać, że rzut karny jest przyznawany tylko za klarowne przewinienia!"
+            },
+            {
+              "id": 43,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F44.jpg",
+              "video": "https://skproject.link/clips/F/F44.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F44.png"
+            },
+            {
+              "id": 44,
+              "additional-explanation": true,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F45.jpg",
+              "video": "https://skproject.link/clips/F/F45.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F45.png",
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/F/F45.png",
+              "translation": "Fizyczny kontakt ze stopą jest znikomy. Sędziowie muszą pamiętać, że rzut karny jest przyznawany tylko za klarowne przewinienia!"
+            },
+            {
+              "id": 45,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F46.jpg",
+              "video": "https://skproject.link/clips/F/F46.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F46.png"
+            },
+            {
+              "id": 46,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/F/F47.jpg",
+              "video": "https://skproject.link/clips/F/F47.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/F/F47.png"
+            }
+          ]
+        },
+        "G": {
+          "letter": "G",
+          "category": "Symulacje",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G1.jpg",
+              "video": "https://skproject.link/clips/G/G1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G1.png"
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G2.jpg",
+              "video": "https://skproject.link/clips/G/G2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G3.jpg",
+              "video": "https://skproject.link/clips/G/G3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G4.jpg",
+              "video": "https://skproject.link/clips/G/G4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G5.jpg",
+              "video": "https://skproject.link/clips/G/G5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G6.jpg",
+              "video": "https://skproject.link/clips/G/G6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G7.jpg",
+              "video": "https://skproject.link/clips/G/G7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G7.png"
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G8.jpg",
+              "video": "https://skproject.link/clips/G/G8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G8.png"
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G9.jpg",
+              "video": "https://skproject.link/clips/G/G9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G9.png"
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G10.jpg",
+              "video": "https://skproject.link/clips/G/G10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G10.png"
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/G/G11.jpg",
+              "video": "https://skproject.link/clips/G/G11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/G/G11.png"
+            }
+          ]
+        },
+        "H": {
+          "letter": "H",
+          "category": "Korzyść",
+          "translation": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H1.jpg",
+              "video": "https://skproject.link/clips/H/H1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H1.png",
+              "translation": "Sędzia prawidłowo przerywa grę, gdy przyznana korzyść nie została osiągnięta."
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H2.jpg",
+              "video": "https://skproject.link/clips/H/H2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H2.png",
+              "translation": "Sędzia prawidłowo opóźnił swoją decyzję, widząc gracza w czerwonej koszulce nr 9, który jest wyraźnie zatrzymywany, natomiast jego współpartner nr 19 zdobywa bramkę. Bardzo dobry przykład wstrzymania gwizdka."
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H3.jpg",
+              "video": "https://skproject.link/clips/H/H3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H3.png",
+              "translation": "Dobrze zastosowana korzyść, gdy zawodnik niebieski nr 20 był trzymany przez swojego przeciwnika, co ostatecznie doprowadziła do zdobycia bramki. Przed rozpoczęciem gry zawodnik biały nr 17 został prawidłowo ukarany napomnieniem za brak szacunku do zawodów."
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H4.jpg",
+              "video": "https://skproject.link/clips/H/H4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H4.png",
+              "translation": "Dwa przykłady, gdzie obaj zawodnicy zostali napomniani z tytułu trzymania za koszulkę. Sędziowie powinni pamiętać, że korzyść powinna być zastosowana, gdy zawodnicy mają dogodną sytuację do rozwinięcia ataku."
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H5.jpg",
+              "video": "https://skproject.link/clips/H/H5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H5.png",
+              "translation": "Sędziowie muszą określić różnicę pomiędzy kontynuowaniem korzystnej akcji i ponownym przejęciem posiadania piłki."
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H6.jpg",
+              "video": "https://skproject.link/clips/H/H6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H6.png",
+              "translation": "Sędziowie muszą określić różnicę pomiędzy kontynuowaniem korzystnej akcji i ponownym przejęciem posiadania piłki."
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H7.jpg",
+              "video": "https://skproject.link/clips/H/H7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H7.png",
+              "translation": "Sędziowie muszą określić różnicę pomiędzy kontynuowaniem korzystnej akcji i ponownym przejęciem posiadania piłki."
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H8.jpg",
+              "video": "https://skproject.link/clips/H/H8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H8.png",
+              "translation": "Sędzia pozostał stanowczy i poprawnie nie ukarał drugim napomnieniem gracza białych nr 12 za przerwanie korzystnej akcji."
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H9.jpg",
+              "video": "https://skproject.link/clips/H/H9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H9.png",
+              "translation": "W takich przypadkach sędziowie muszą pozwolić na kontynuowanie gry, a jeśli przewaga nie zostanie osiągnięta, sędzia może przerwać grę."
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H10.jpg",
+              "video": "https://skproject.link/clips/H/H10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H10.png",
+              "translation": "Bardzo przytomne zachowanie sędziego, który ignoruje sygnalizację asystenta i prawidłowo stosuje korzyść."
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H11.jpg",
+              "video": "https://skproject.link/clips/H/H11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H11.png",
+              "translation": "W takich okolicznościach sędziowie muszą opóźnić swój gwizdek, aby ocenić czy istnieje szansa na zastosowanie korzyści"
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H12.jpg",
+              "video": "https://skproject.link/clips/H/H12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H12.png",
+              "translation": "Sędziowie muszą określić różnicę pomiędzy kontynuowaniem korzystnej akcji i ponownym przejęciem posiadania piłki. W tym przypadku lepszą decyzją dla drużyny jest podyktowanie rzutu wolnego."
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H13.jpg",
+              "video": "https://skproject.link/clips/H/H13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H13.png",
+              "translation": "W takich okolicznościach sędziowie muszą opóźnić swój gwizdek, aby ocenić czy istnieje szansa na zastosowanie korzyści"
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/H/H14.jpg",
+              "video": "https://skproject.link/clips/H/H14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/H/H14.png",
+              "translation": "Sędzia zezwala na kontynuowanie gry, nawet jeśli wydaje się, że nie ma natychmiastowej przewagi, jednak gra szybko się rozwija i zostaje strzelona bramka."
+            }
+          ]
+        },
+        "I": {
+          "letter": "I",
+          "category": "Konfrontacje",
+          "translation": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I1.jpg",
+              "video": "https://skproject.link/clips/I/I1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I1.png",
+              "translation": "Sędziowie powinni upewnić się, że doliczony czas jest prawidłowo wyliczony. Mecz został wstrzymany 1:10 do jego końca. Gra została wznowiona i sędzia natychmiast zakończyła mecz, czyniąc to nieprawidłowo."
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I2.jpg",
+              "video": "https://skproject.link/clips/I/I2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I2.png",
+              "translation": "Podczas trwania doliczonego czasu (4 minuty) miała miejsce wymiana zawodnika, tym samym gra została wstrzymana na 35 sekund. Sędzia błędnie zakończył mecz dokładnie w minucie 90+4. Sędziowie powinni mieć w pamięci, że przerwy lub stracony czas podczas trwania doliczonego czasu gry, muszą być również doliczone."
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I3.jpg",
+              "video": "https://skproject.link/clips/I/I3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I3.png",
+              "translation": "Sędzia prawidłowo zakończył pierwszą połowę w 45 minucie meczu ze względu na brak doliczonego czasu."
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I4.jpg",
+              "video": "https://skproject.link/clips/I/I4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I4.png",
+              "translation": "Takie zachowania osób w strefie technicznej muszą być odpowiednio karane. Ważne, aby sędzia techniczny był aktywny i powinien być gotowy, aby zareagować jak najszybciej."
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I5.jpg",
+              "video": "https://skproject.link/clips/I/I5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I5.png",
+              "translation": "Kiedy zawodnik cierpi z powodu urazu głowy lub upadnie gwałtownie, natychmiast powinna być wezwana pomoc medyczna na boisko w trosce o bezpieczeństwo zawodników."
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I6.jpg",
+              "video": "https://skproject.link/clips/I/I6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I6.png",
+              "translation": "Sędzia prawidłowo zastosował środki prewencji i w sposób werbalny ostrzegł obu zawodników. Gdy słowne ostrzeżenie nie pomogło, sędzia prawidłowo napomniał obu piłkarzy."
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I7.jpg",
+              "video": "https://skproject.link/clips/I/I7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I7.png",
+              "translation": "Dobry przykład sytuacji, gdzie sędzia prawidłowo w sposób natychmiastowy przerwał grę, aby przywołać pomoc medyczną dla cierpiących zawodników."
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I8.jpg",
+              "video": "https://skproject.link/clips/I/I8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I8.png",
+              "translation": "Zawodnik nr 27 granatowych został prawidłowo napomniany za niesportowe zachowanie, jednak zachowanie innych graczy jest nieakceptowalne. Sędziom przypomina się o wytycznych UEFY dotyczących masowych konfrontacji, natomiast minimum jeden zawodnik z każdej drużyny musi być napomniany."
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I9.jpg",
+              "video": "https://skproject.link/clips/I/I9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I9.png",
+              "translation": "Sędzia prawidłowo napomniał po jednym graczu z obu drużyn za niesportowe zachowanie."
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I10.jpg",
+              "video": "https://skproject.link/clips/I/I10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I10.png",
+              "translation": "Jeśli taka konfrontacja występuje, zaleca się, aby sędziowie obserwowali wydarzenia z dalszej odległości i notowali jakie decyzje powinni podjąć. Ważne jest również, aby zespół sędziowski był pewny swoich decyzji, podjętych na podstawie zauważonych zachowań, zanim gra zostanie wznowiona."
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I11.jpg",
+              "video": "https://skproject.link/clips/I/I11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I11.png",
+              "translation": "Sędzia poprawnie zainterweniował w sposób szybki i stanowczy, zapewniając sobie kontrolę nad incydentem. Po jednym zawodniku z obu drużyn zostało prawidłowo napomnianych."
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I12.jpg",
+              "video": "https://skproject.link/clips/I/I12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I12.png",
+              "translation": "Po jednym zawodniku z obu drużyn zostało prawidłowo napomnianych."
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I13.jpg",
+              "video": "https://skproject.link/clips/I/I13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I13.png",
+              "translation": "Kiedy zawodnicy zachowują się w ten sposób, obaj powinni być napomniani za niesportowe zachowanie względem siebie."
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I14.jpg",
+              "video": "https://skproject.link/clips/I/I14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I14.png",
+              "translation": "Sędzia prawidłowo napomniał obu zawodników za niesportowe zachowanie."
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I15.jpg",
+              "video": "https://skproject.link/clips/I/I15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I15.png",
+              "translation": "Zawodnik nr 7 biały został prawidłowo napomniany za odmówienie zejścia z boiska przez najbliższą linię ograniczającą."
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I16.jpg",
+              "video": "https://skproject.link/clips/I/I16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I16.png",
+              "translation": "Bramkarz został prawidłowo napomniany za rozmyślne opóźnianie wznowienia gry. Również dobre zarządzanie ze strony sędziego, który pokazał kartkę z odległości."
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I17.jpg",
+              "video": "https://skproject.link/clips/I/I17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I17.png",
+              "translation": "Sędziowie muszą zwracać uwagę na odległość obrońców od piłki (9.15m)."
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I18.jpg",
+              "video": "https://skproject.link/clips/I/I18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I18.png",
+              "translation": "Sędziowie powinni pamiętać o tym, że gra może być wstrzymana wtedy, gdy zawodnik odniósł poważną kontuzję. Sędziowie, którzy wstrzymuję grę, powinni to zrobić, gdy drużyna nie prowadzi korzystnej akcji na bramkę rywala."
+            },
+            {
+              "id": 18,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I19.jpg",
+              "video": "https://skproject.link/clips/I/I19.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I19.png",
+              "translation": "Trzech zawodników zostało prawidłowo ukaranych po masowej konfrontacji."
+            },
+            {
+              "id": 19,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I20.jpg",
+              "video": "https://skproject.link/clips/I/I20.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I20.png",
+              "translation": "Gdy przewinienie następuje za blisko sędziego asystenta, powinien on być bardziej pro-aktywny niż re-aktywny i zaprzestać dalszej eskalacji. Trzech zawodników zostało prawidłowo napomnianych po masowej konfrontacji."
+            },
+            {
+              "id": 20,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I21.jpg",
+              "video": "https://skproject.link/clips/I/I21.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I21.png",
+              "translation": "Brak wahania przy pokazaniu żółtej kartki dla faulującego zawodnika nr 22 czarni mogła zaprzestać masową konfrontację, która się wydarzyła. Sędziowie powinni mieć w pamięci, żeby ukarać minimum jednego zawodnika z każdej drużyny."
+            },
+            {
+              "id": 21,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I22.jpg",
+              "video": "https://skproject.link/clips/I/I22.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I22.png",
+              "translation": "Dobry przykład, gdzie sędzia nie odgwizdując pierwszego przewinienia, drugie przewinienie staje się początkiem masowej konfrontacji, która nie musiała zaistnieć. Sędzia postanowił odejść, dopóki konfrontacja się nie skończy. Czterech graczy i jeden z trenerów zostali napomniani przed wznowieniem gry. Sędziowie muszą być w takim przypadku pro-aktywni."
+            },
+            {
+              "id": 22,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I23.jpg",
+              "video": "https://skproject.link/clips/I/I23.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I23.png",
+              "translation": "Zawodnik nr 9 niebieski został dwa razy upomniany w przeciągu dwóch minut. W takim przypadku zawodnik musi być napomniany, jeśli następne przewinienie zostało popełnione niedługo po pierwszym."
+            },
+            {
+              "id": 23,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I24.jpg",
+              "video": "https://skproject.link/clips/I/I24.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I24.png",
+              "translation": "Sędziowie muszą być świadomi uporczywego atakowania oraz świadomi zawodników (Anglia nr 7), którzy są celem przeciwnika. Chrońmy piłkarzy!"
+            },
+            {
+              "id": 24,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I25.jpg",
+              "video": "https://skproject.link/clips/I/I25.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I25.png",
+              "translation": "Dwa przykłady komunikacji sędziego poprzez język ciała, które ukazują przyczynę napomnienia zawodnika, który uporczywie dokonuje przewinień."
+            },
+            {
+              "id": 25,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I26.jpg",
+              "video": "https://skproject.link/clips/I/I26.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I26.png",
+              "translation": "Zawodnik nr 37 biały jest winny uporczywego dokonywania przewinień. Po drugim przewinieniu w 24. minucie był poinformowany, że to jego 'ostatni raz'... Ten sam zawodnik popełnił więcej fauli przed ukaraniem w 67. minucie..."
+            },
+            {
+              "id": 26,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I27.jpg",
+              "video": "https://skproject.link/clips/I/I27.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I27.png",
+              "translation": "Obraz, który pokazuje graczy biegnących w stronę sędziego, aby wymusić jego decyzję, nie jest dobry. Kiedy sędzia ma zamiar pokazać drugą żółtą kartkę, musi to zrobić bez zawahania."
+            },
+            {
+              "id": 27,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I28.jpg",
+              "video": "https://skproject.link/clips/I/I28.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I28.png",
+              "translation": "Sędzia prawidłowo zdecydował o powtórce rzutu karnego po tym, jak bramkarz wyraźnie opuścił linię bramkową. Dobra współpraca z AS2."
+            },
+            {
+              "id": 28,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I29.jpg",
+              "video": "https://skproject.link/clips/I/I29.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I29.png",
+              "translation": "Kiedy zawodnicy wyraźnie wkraczają w pole karne przed oddaniem strzału z punktu karnego, sędzia powinien podjąć decyzję zgodną z Przepisami Gry. W tym przypadku zawodnicy obu drużyn wkraczają w pole karne, tym samym rzut karny powinien być powtórzony."
+            },
+            {
+              "id": 29,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I30.jpg",
+              "video": "https://skproject.link/clips/I/I30.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I30.png",
+              "translation": "Zawodnik nr 11 biały wyraźnie wkracza w pole karne przed momentem kopnięcia piłki i odnosi niesprawiedliwą korzyść, dobijając odbitą piłkę do bramki. Po sprawdzeniu VAR bramka została anulowana i został przyznany rzut wolny pośredni."
+            },
+            {
+              "id": 30,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I31.jpg",
+              "video": "https://skproject.link/clips/I/I31.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I31.png",
+              "translation": "Wkroczenie w pole karny przez zawodników obu drużyn skutkuje poprawnym powtórzeniem rzutu."
+            },
+            {
+              "id": 31,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I32.jpg",
+              "video": "https://skproject.link/clips/I/I32.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I32.png",
+              "translation": "Sędziowie muszą być pewni miejsca, z którego wykonywane jest wznowienie gry."
+            },
+            {
+              "id": 32,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I33.jpg",
+              "video": "https://skproject.link/clips/I/I33.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I33.png",
+              "translation": "Na początku meczu sędzia zainterweniował werbalnie, aby drużyna gości nie marnowała czasu. Grali pod nieustającą presją i próbowali spowolnić tempo gry. Dobra interwencja sędziego pomimo wczesnej minuty. Zawodnik nr 3 biały, który miał na koncie żółtą kartkę, wykonywał wrzut za długo i został napomniany powtórnie. W takich okolicznościach sędziowie powinni poinformować zawodników o potencjalnych konsekwencjach opóźniania gry."
+            },
+            {
+              "id": 33,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/I/I34.jpg",
+              "video": "https://skproject.link/clips/I/I34.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/I/I34.png",
+              "translation": "Sędziowie powinni pamiętać, że nie ma potrzeby przerywania gry natychmiast gdy pojawia się druga piłka na boisku. Gra powinna być zatrzymana tylko wtedy, gdy druga piłka przeszkadza w grze."
+            }
+          ]
+        },
+        "J": {
+          "letter": "J",
+          "category": "Reprymenda",
+          "translation": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J1.jpg",
+              "video": "https://skproject.link/clips/J/J1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J1.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J2.jpg",
+              "video": "https://skproject.link/clips/J/J2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J2.png",
+              "translation": "Osoby funkcyjne w strefach technicznych muszą zachowywać się odpowiedzialnie i gdy tego nie robią, muszą być odpowiednio ukarani."
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J3.jpg",
+              "video": "https://skproject.link/clips/J/J3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J3.png",
+              "translation": "Osoby funkcyjne w strefach technicznych muszą zachowywać się odpowiedzialnie i gdy tego nie robią, muszą być odpowiednio ukarani."
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J4.jpg",
+              "video": "https://skproject.link/clips/J/J4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J4.png",
+              "translation": "Osoby funkcyjne w strefach technicznych muszą zachowywać się odpowiedzialnie i gdy tego nie robią, muszą być odpowiednio ukarani. Kiedy nadchodzi moment pokazania kartki dla osoby w strefie technicznej, sędzia powinien zaprosić go na skraj boiska."
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J5.jpg",
+              "video": "https://skproject.link/clips/J/J5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J5.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J6.jpg",
+              "video": "https://skproject.link/clips/J/J6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J6.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani. Sarkastyczne klaskanie zawodnika mogłoby doprowadzić do jego wykluczenia."
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J7.jpg",
+              "video": "https://skproject.link/clips/J/J7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J7.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J8.jpg",
+              "video": "https://skproject.link/clips/J/J8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J8.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J9.jpg",
+              "video": "https://skproject.link/clips/J/J9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J9.png",
+              "translation": "Zawodnik nr 7 biały otrzymał 2 napomnienia za okazywanie niezadowolenia z decyzji sędziego."
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J10.jpg",
+              "video": "https://skproject.link/clips/J/J10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J10.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani lub wykluczeni, jeśli są już napomniani."
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J11.jpg",
+              "video": "https://skproject.link/clips/J/J11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J11.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J12.jpg",
+              "video": "https://skproject.link/clips/J/J12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J12.png",
+              "translation": "Zawodnicy, którzy odkopują piłkę w wyniku sprzeciwu z decyzją sędziego lub aby opóźnić wznowienie gry, muszą być napomniani."
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J13.jpg",
+              "video": "https://skproject.link/clips/J/J13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J13.png",
+              "translation": "Zachowanie zawodnika czerwonych nr 12, który dotyka sędziego, jest nieakceptowalne. Zawodnicy, którzy w jakikolwiek sposób wpływają na decyzję sędziego, w tym mobbingowanie, muszą być ukarani."
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J14.jpg",
+              "video": "https://skproject.link/clips/J/J14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J14.png",
+              "translation": "Sędzia powinien pamiętać o wytycznych UEFA, które mówią, że w przypadku mobbingu minimum jeden zawodnik powinien zostać napomniany."
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J15.jpg",
+              "video": "https://skproject.link/clips/J/J15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J15.png",
+              "translation": "Sędzia powinien pamiętać o wytycznych UEFA, które mówią, że w przypadku mobbingu minimum jeden zawodnik powinien zostać napomniany."
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J16.jpg",
+              "video": "https://skproject.link/clips/J/J16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J16.png",
+              "translation": "Sędzia powinien pamiętać o wytycznych UEFA, które mówią, że w przypadku mobbingu minimum jeden zawodnik powinien zostać napomniany."
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J17.jpg",
+              "video": "https://skproject.link/clips/J/J17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J17.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J18.jpg",
+              "video": "https://skproject.link/clips/J/J18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J18.png",
+              "translation": "Sędzia pozostał skupiony na przewinieniu i jest świadomy biegnącego z dalszej odległości zawodnika niebieskich nr 26. Zawodnik jest prawidłowo napomniany. Sędziowie powinni powstrzymywać się przed dotykaniem zawodników."
+            },
+            {
+              "id": 18,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J19.jpg",
+              "video": "https://skproject.link/clips/J/J19.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J19.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            },
+            {
+              "id": 19,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J20.jpg",
+              "video": "https://skproject.link/clips/J/J20.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J20.png",
+              "translation": "Zawodnicy, którzy reagują w kierunku sędziego w ten sposób, muszą być napomniani. Jeśli piłka uderzyłaby sędziego, wtedy zawodnik musi być wykluczony."
+            },
+            {
+              "id": 20,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J21.jpg",
+              "video": "https://skproject.link/clips/J/J21.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J21.png",
+              "translation": "Zawodnicy proszący o sprawdzenie VAR poprzez gesty muszą być napomniani."
+            },
+            {
+              "id": 21,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/J/J22.jpg",
+              "video": "https://skproject.link/clips/J/J22.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/J/J22.png",
+              "translation": "Zawodnicy zachowujący się w ten sposób muszą być napomniani."
+            }
+          ]
+        },
+        "L": {
+          "letter": "L",
+          "category": "Spalony",
+          "dictionary": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L1.jpg",
+              "video": "https://skproject.link/clips/L/L1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L1.png",
+              "additional-explanation": true,
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/L/L1.png",
+              "translation": "W tej akcji spalony nie moze zaistnieć, ponieważ piłka nie była nigdy zagrana przez wpsółpartnera. Jednakże zawodnik na pozycji spalonej nadal może być ukarany zgodnie z Artykułem 12."
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L2.jpg",
+              "video": "https://skproject.link/clips/L/L2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L2.png"
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L3.jpg",
+              "video": "https://skproject.link/clips/L/L3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L3.png"
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L4.jpg",
+              "video": "https://skproject.link/clips/L/L4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L4.png"
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L5.jpg",
+              "video": "https://skproject.link/clips/L/L5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L5.png"
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L6.jpg",
+              "video": "https://skproject.link/clips/L/L6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L6.png"
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L7.jpg",
+              "video": "https://skproject.link/clips/L/L7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L7.png"
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L8.jpg",
+              "video": "https://skproject.link/clips/L/L8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L8.png",
+              "additional-explanation": true,
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/L/L8.png",
+              "translation": "Napastnik na pozycji spalonej zostaje zaangażowany w grę natychmiast."
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L9.jpg",
+              "video": "https://skproject.link/clips/L/L9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L9.png",
+              "additional-explanation": true,
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/L/L9.png",
+              "translation": "Sytuacja borderline. Jeśli nawet napastnik na pozycji spalonej był blisko obrońcy i biegł w jego kierunku, można uznać go jako wpływającego na przeciwnika."
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L10.jpg",
+              "video": "https://skproject.link/clips/L/L10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L10.png"
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L11.jpg",
+              "video": "https://skproject.link/clips/L/L11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L11.png"
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L12.jpg",
+              "video": "https://skproject.link/clips/L/L12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L12.png"
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L13.jpg",
+              "video": "https://skproject.link/clips/L/L13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L13.png"
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L14.jpg",
+              "video": "https://skproject.link/clips/L/L14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L14.png"
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L15.jpg",
+              "video": "https://skproject.link/clips/L/L15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L15.png"
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L16.jpg",
+              "video": "https://skproject.link/clips/L/L16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L16.png"
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L17.jpg",
+              "video": "https://skproject.link/clips/L/L17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L17.png"
+            },
+            {
+              "id": 17,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L18.jpg",
+              "video": "https://skproject.link/clips/L/L18.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L18.png"
+            },
+            {
+              "id": 18,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L19.jpg",
+              "video": "https://skproject.link/clips/L/L19.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L19.png"
+            },
+            {
+              "id": 19,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L20.jpg",
+              "video": "https://skproject.link/clips/L/L20.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L20.png"
+            },
+            {
+              "id": 20,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L21.jpg",
+              "video": "https://skproject.link/clips/L/L21.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L21.png"
+            },
+            {
+              "id": 21,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L22.jpg",
+              "video": "https://skproject.link/clips/L/L22.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L22.png"
+            },
+            {
+              "id": 22,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L23.jpg",
+              "video": "https://skproject.link/clips/L/L23.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L23.png"
+            },
+            {
+              "id": 23,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L24.jpg",
+              "video": "https://skproject.link/clips/L/L24.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L24.png"
+            },
+            {
+              "id": 24,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L25.jpg",
+              "video": "https://skproject.link/clips/L/L25.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L25.png"
+            },
+            {
+              "id": 25,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L26.jpg",
+              "video": "https://skproject.link/clips/L/L26.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L26.png"
+            },
+            {
+              "id": 26,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L27.jpg",
+              "video": "https://skproject.link/clips/L/L27.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L27.png"
+            },
+            {
+              "id": 27,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L28.jpg",
+              "video": "https://skproject.link/clips/L/L28.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L28.png"
+            },
+            {
+              "id": 28,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L29.jpg",
+              "video": "https://skproject.link/clips/L/L29.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L29.png"
+            },
+            {
+              "id": 29,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L30.jpg",
+              "video": "https://skproject.link/clips/L/L30.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L30.png",
+              "additional-explanation": true,
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/L/L30.png",
+              "translation": "Zachowanie obrońcy może być uważane jako obrona."
+            },
+            {
+              "id": 30,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L31.jpg",
+              "video": "https://skproject.link/clips/L/L31.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L31.png"
+            },
+            {
+              "id": 31,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L32.jpg",
+              "video": "https://skproject.link/clips/L/L32.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L32.png"
+            },
+            {
+              "id": 32,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L33.jpg",
+              "video": "https://skproject.link/clips/L/L33.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L33.png"
+            },
+            {
+              "id": 33,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L34.jpg",
+              "video": "https://skproject.link/clips/L/L34.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L34.png",
+              "additional-explanation": true,
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/L/L34.png",
+              "translation": "Obrońca nie zagrywa piłki w kontrolowany sposób, tylko próbuje zapobiec podania i dlatego podanie nie będzie uważane jako rozmyslne zagranie w kontekście Artykułu 11."
+            },
+            {
+              "id": 34,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L35.jpg",
+              "video": "https://skproject.link/clips/L/L35.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L35.png",
+              "additional-explanation": true,
+              "explanation": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/L/L35.png",
+              "translation": "Obrońca nie zagrywa piłki w kontrolowany sposób i dlatego podanie nie będzie uważane jako rozmyslne zagranie w kontekście Artykułu 11."
+            },
+            {
+              "id": 35,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L36.jpg",
+              "video": "https://skproject.link/clips/L/L36.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L36.png"
+            },
+            {
+              "id": 36,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/L/L37.jpg",
+              "video": "https://skproject.link/clips/L/L37.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/decisions/L/L37.png"
+            }
+          ]
+        },
+        "M": {
+          "letter": "M",
+          "category": "Współpraca",
+          "translation": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M1.jpg",
+              "video": "https://skproject.link/clips/M/M1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M1.png",
+              "translation": "Gdy przewinienie występuje blisko sędziego technicznego, musi on być gotowy do poinformowania sędziego o nierozważnym ataku i odpowiedniej sankcji dyscyplinarnej."
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M2.jpg",
+              "video": "https://skproject.link/clips/M/M2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M2.png",
+              "translation": "Gdy przewinienie występuje blisko sędziego asystenta, musi on być gotowy do poinformowania sędziego o faulu."
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M3.jpg",
+              "video": "https://skproject.link/clips/M/M3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M3.png",
+              "translation": "Sędzia asystent prawidłowo poinformował sędziego o faulu na bramkarzu."
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M4.jpg",
+              "video": "https://skproject.link/clips/M/M4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M4.png",
+              "translation": "Bardzo dobra świadomość i szybka reakcja asystenta nr 2 oraz sędziego, którzy biegną, aby rozdzielić dwóch zawodników, którzy mogli rozpocząć konfrontację."
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M5.jpg",
+              "video": "https://skproject.link/clips/M/M5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M5.png",
+              "translation": "Sędzia asystent w dobry sposób sygnalizuje przewinienie popełnione w jego okolicy. Zarządzanie wznowienia gry powinno być kontrolowane przez sędziego."
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M6.jpg",
+              "video": "https://skproject.link/clips/M/M6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M6.png",
+              "translation": "Sędzia asystent nieprawidłowo poinformował sędziego o zagraniu ręką w polu karnym. Gdy na meczu jest VAR, asystent nie powinien podejmować takich decyzji."
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M7.jpg",
+              "video": "https://skproject.link/clips/M/M7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M7.png",
+              "translation": "Prawidłowa decyzja sędziego asystenta o przewinieniu polegającym na trzymaniu rywala za koszulkę."
+            },
+            {
+              "id": 7,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M8.jpg",
+              "video": "https://skproject.link/clips/M/M8.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M8.png",
+              "translation": "Oba klipy ukazują poprawne decyzje sędziego technicznego i sędziego asystenta."
+            },
+            {
+              "id": 8,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M9.jpg",
+              "video": "https://skproject.link/clips/M/M9.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M9.png",
+              "translation": "Gdy takie sytuacje występuję w okolicy sędziego asystenta/technicznego, muszą oni być przygotowani do poinformowania sędziego o przewinieniu."
+            },
+            {
+              "id": 9,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M10.jpg",
+              "video": "https://skproject.link/clips/M/M10.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M10.png",
+              "translation": "Oba klipy ukazują poprawne decyzje sędziego technicznego i sędziego asystenta."
+            },
+            {
+              "id": 10,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M11.jpg",
+              "video": "https://skproject.link/clips/M/M11.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M11.png",
+              "translation": "Gdy przewinienie występuje blisko sędziego technicznego, musi on być gotowy do poinformowania sędziego o nierozważnym ataku i odpowiedniej sankcji dyscyplinarnej."
+            },
+            {
+              "id": 11,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M12.jpg",
+              "video": "https://skproject.link/clips/M/M12.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M12.png",
+              "translation": "Sędzia asystent nieprawidłowo poinformował sędziego o zagraniu ręką w polu karnym. Gdy na meczu jest VAR, asystent nie powinien podejmować takich decyzji."
+            },
+            {
+              "id": 12,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M13.jpg",
+              "video": "https://skproject.link/clips/M/M13.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M13.png",
+              "translation": "Gdy VAR jest w użyciu, sędzia prawidłowo pozwolił na kontynuowanie fazy ataku po sygnale ze strony sędziego asystenta, który zauważył faul zawodnika białego nr 19. Dobre skupienie ze strony sędziego asystenta i prawidłowe zezwolenie na kontynuowanie gry."
+            },
+            {
+              "id": 13,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M14.jpg",
+              "video": "https://skproject.link/clips/M/M14.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M14.png",
+              "translation": "Gdy przewinienie występuje blisko sędziego technicznego, musi on być gotowy do poinformowania sędziego o nierozważnym ataku i odpowiedniej sankcji dyscyplinarnej."
+            },
+            {
+              "id": 14,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M15.jpg",
+              "video": "https://skproject.link/clips/M/M15.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M15.png",
+              "translation": "W takich przypadkach sędzia asystent musi być przygotowany na pomoc sędziemu, informując o przewinieniu. W takich przypadkach sygnał od asystenta uwiarygadnia decyzję sędziego."
+            },
+            {
+              "id": 15,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M16.jpg",
+              "video": "https://skproject.link/clips/M/M16.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M16.png",
+              "translation": "Ten montaż zdarzeń pokazuje stemple, które nie zostały odgwizdane przez sędziów. Jest to ważne, aby sędzia techniczny/asystent utrzymywał skupienie, gdy takie sytuacje mają miejsce."
+            },
+            {
+              "id": 16,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/M/M17.jpg",
+              "video": "https://skproject.link/clips/M/M17.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/M/M17.png",
+              "translation": "Sędzia napomina zawodnika białych nr 2 za nierozważny atak, jednakże to napomnienie zostało pokazane około 60 sekund od momentu przewinienia. Sędziowie powinni pamiętać, że podejmowanie decyzji (w tym sankcje dyscyplinarne) nie powinny być opóźniane."
+            }
+          ]
+        },
+        "N": {
+          "letter": "N",
+          "category": "Przepisy Gry",
+          "translation": true,
+          "content": [
+            {
+              "id": 0,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/N/N1.jpg",
+              "video": "https://skproject.link/clips/N/N1.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/N/N1.png",
+              "translation": "W momencie gdy piłka odbija się od sędziego i nie zmienia się posiadanie piłki przez drużynę, nie ma potrzeby, aby przerywać grę rzutem sędziowskim."
+            },
+            {
+              "id": 1,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/N/N2.jpg",
+              "video": "https://skproject.link/clips/N/N2.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/N/N2.png",
+              "translation": "Sędziowie powinni pamiętać, że zaklejanie biżuterii jest zabronione."
+            },
+            {
+              "id": 2,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/N/N3.jpg",
+              "video": "https://skproject.link/clips/N/N3.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/N/N3.png",
+              "translation": "Sędziowie powinni pamiętać, że opaski skórzane lub gumowe są zabronione i muszą być zdjęte."
+            },
+            {
+              "id": 3,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/N/N4.jpg",
+              "video": "https://skproject.link/clips/N/N4.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/N/N4.png",
+              "translation": "Napastnik stał jedną nogą na jego własnej połowie i drugą na linii, ale jego ciało było na połowie przeciwnika. Według protokołu VAR faza atakowania zostaje kontynuowana przed podniesieniem flagi z powodu spalonego."
+            },
+            {
+              "id": 4,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/N/N5.jpg",
+              "video": "https://skproject.link/clips/N/N5.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/N/N5.png",
+              "translation": "Prawidłowo przyznany rzut wolny pośredni z powodu zbyt bliskiej odległości od muru zawodnika czerwonych nr 14."
+            },
+            {
+              "id": 5,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/N/N6.jpg",
+              "video": "https://skproject.link/clips/N/N6.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/N/N6.png",
+              "translation": "Sędzia prawidłowo zezwolił na kontynuowanie gry po wykonaniu rzutu od bramki, ponieważ napastnik, który znajdował się w polu karnym, nie miał czasu na jego opuszczenie."
+            },
+            {
+              "id": 6,
+              "thumbnail": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/th/N/N7.jpg",
+              "video": "https://skproject.link/clips/N/N7.mp4",
+              "decision": "https://raw.githubusercontent.com/Kupi403/uefa-clips-2022/main/dist/img/additional_explanation/N/N7.png",
+              "translation": "Prawidłowo przyznany rzut wolny pośredni, ponieważ napastnik był bliżej niż 1 metr od muru obrońców."
+            }
+          ]
+        }
+      }

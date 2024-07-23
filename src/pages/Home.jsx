@@ -1,7 +1,6 @@
 import { useState, useEffect, useContext } from 'react'
 import { AppContext } from '../store/AppContext'
 import { Link } from 'react-router-dom'
-import api from '../assets/app-clips.json'
 import ExpandedElements from './ExpandedElements'
 import setDocumentTitle from '../helpers/setDocumentTitle'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
@@ -14,7 +13,7 @@ const Home = () => {
 	let radiusPropsClosed = '10px'
 	const [isAccordionOpen, setIsAccordionOpen] = useState({ 0: false, 1: false })
 
-	const { translations, version } = useContext(AppContext)
+	const { translations, version, api } = useContext(AppContext)
 
 	useEffect(() => {
 		setDocumentTitle(version, 'Menu')
@@ -35,8 +34,14 @@ const Home = () => {
 		},
 	})
 
-	const decisionClips = Object.entries(api).slice(1, 8)
-	const managementClips = Object.entries(api).slice(8, 11)
+	const decisionMarks = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+	const managementMarks = ['H', 'I', 'J', 'K']
+	const otherMarks = ['L', 'M', 'N', 'O', 'P']
+
+	const decisionClips = Object.entries(api).filter(entry => decisionMarks.includes(entry[0]))
+	const managementClips = Object.entries(api).filter(entry => managementMarks.includes(entry[0]))
+
+	const otherCategories = Object.entries(api).filter(entry => otherMarks.includes(entry[0]))
 
 	const handleOpenAccordion = id => {
 		setIsAccordionOpen({ ...isAccordionOpen, [id]: !isAccordionOpen[id] })
@@ -86,30 +91,20 @@ const Home = () => {
 				</div>
 			)}
 
-			<Link to={'clips/L'}>
-				<AccordionButton className='home__item'>
-					<div className='home__description-box'>
-						<p className='home__letter'>l</p>
-						<p className='home__title'>{translations.home.l}</p>
-					</div>
-				</AccordionButton>
-			</Link>
-			<Link to={'clips/M'}>
-				<AccordionButton className='home__item'>
-					<div className='home__description-box'>
-						<p className='home__letter'>m</p>
-						<p className='home__title'>{translations.home.m}</p>
-					</div>
-				</AccordionButton>
-			</Link>
-			<Link to={'clips/N'}>
-				<AccordionButton className='home__item'>
-					<div className='home__description-box'>
-						<p className='home__letter'>n</p>
-						<p className='home__title'>{translations.home.n}</p>
-					</div>
-				</AccordionButton>
-			</Link>
+			{otherCategories.map(category => (
+				<Link
+					to={`clips/${category[0]}`}
+					key={category[0]}>
+					<AccordionButton className='home__item'>
+						<div className='home__description-box'>
+							<p className='home__letter'>{category[0]}</p>
+							<p className='home__title'>{`${category[1].category} (${category[1].letter + 1} - ${
+								category[1].letter + category[1].content.length
+							})`}</p>
+						</div>
+					</AccordionButton>
+				</Link>
+			))}
 		</div>
 	)
 }

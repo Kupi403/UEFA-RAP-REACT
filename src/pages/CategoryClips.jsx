@@ -1,6 +1,5 @@
 import { useEffect, useContext, useState } from 'react'
 import { AppContext } from '../store/AppContext'
-import api from '../assets/app-clips.json'
 import { Link, useParams } from 'react-router-dom'
 import PageHeader from '../Components/PageHeader'
 import setTitle from '../helpers/setDocumentTitle'
@@ -8,9 +7,11 @@ import './styles/CategoryClips.scss'
 
 const CategoryClips = () => {
 	const { category } = useParams()
-	const { version, language, translations } = useContext(AppContext)
+	const { version, language, translations, api } = useContext(AppContext)
 	const [loading, setLoading] = useState(true)
 	const data = api[category.toUpperCase()]
+
+
 
 	useEffect(() => {
 		setTitle(version, api[category.toUpperCase()].category)

@@ -2,18 +2,17 @@ import { useRef, useEffect, useContext, useState } from 'react'
 import { AppContext } from '../store/AppContext'
 import Player from '../Components/VideoPlayer/Player'
 import { useParams } from 'react-router-dom'
-import api from '../assets/app-clips.json'
 import { useSwipeable } from 'react-swipeable'
 import PageHeader from '../Components/PageHeader'
 import { IconButton } from '@mui/material'
 import { ArrowBack, ArrowForward, PlaylistAddCheck } from '@mui/icons-material'
 import setTitle from '../helpers/setDocumentTitle'
-import './styles/Clip.scss'
 import isIOSDevice from '../helpers/isIOSDevice'
+import './styles/Clip.scss'
 
 const Clip = () => {
+	const { language, version, translations, api } = useContext(AppContext)
 	const [isIOSDecision, setIsIOSDecision] = useState(false)
-
 	const { category, id } = useParams()
 	const letter = category.toUpperCase()
 	const clipList = api[letter].content
@@ -21,7 +20,6 @@ const Clip = () => {
 	const currentClipId = +id
 	const playerWrapperRef = useRef()
 
-	const { language, version, translations } = useContext(AppContext)
 
 	useEffect(() => {
 		setTitle(version, `${category}${id}`)
@@ -42,7 +40,7 @@ const Clip = () => {
 		swipeDuration: 250,
 	})
 
-	if (+id > clipList.length || +id < 0) {
+	if (clipList.length != 0 && (+id > clipList.length || +id < 0)) {
 		throw new Error(
 			language === 'pl'
 				? `Nie odnaleziono podanego klipu ${category}${id} w wersji UEFA RAP ${version}`
