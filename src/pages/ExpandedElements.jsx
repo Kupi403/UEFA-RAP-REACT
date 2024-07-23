@@ -15,19 +15,16 @@ const ExpandedElements = ({ elements }) => {
 		background: 'linear-gradient(319deg, rgba(18, 46, 120, 1) 0%, rgba(34, 68, 158, 1) 100%)',
 	})
 
-	const selectedBar = elements[0][0] == 'A' ? 'expandedBar1' : 'expandedBar2'
+	const { translations } = useContext(AppContext)
 
-	const { translations } = useContext(AppContext)	
-
-	return elements.map((element,id) => {
+	return elements.map((element, id) => {
 		return (
 			<Link
 				className='home__expanded-item'
 				to={`clips/${element[1].letter}`}
-				key={element[1].letter}
-			>
+				key={element[1].letter}>
 				<ExpandedElementButton>
-					<p className='home__expanded-item--title'>{translations.home[selectedBar].subTitles[id]}</p>
+					<p className='home__expanded-item--title'>{translations.home[elements[id][0].toLowerCase()]}</p>
 					<p className='home__expanded-item--amount'>{`(${element[1].letter}1-${element[1].content.length})`}</p>
 				</ExpandedElementButton>
 			</Link>

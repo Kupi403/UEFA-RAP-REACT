@@ -47,6 +47,7 @@ const Home = () => {
 		setIsAccordionOpen({ ...isAccordionOpen, [id]: !isAccordionOpen[id] })
 	}
 
+
 	return (
 		<div className='home'>
 			<AccordionButton
@@ -98,7 +99,7 @@ const Home = () => {
 					<AccordionButton className='home__item'>
 						<div className='home__description-box'>
 							<p className='home__letter'>{category[0]}</p>
-							<p className='home__title'>{`${category[1].category} (${category[1].letter + 1} - ${
+							<p className='home__title'>{`${translations.home[category[0].toLowerCase()]} (${category[1].letter + 1} - ${
 								category[1].letter + category[1].content.length
 							})`}</p>
 						</div>

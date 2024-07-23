@@ -8,6 +8,7 @@ const en = {
 		f: 'penalty area decisions',
 		g: 'simulation',
 		h: 'advantage',
+		i:'confrontations',
 		j: 'dissent',
 		k: 'referee abuse',
 		expandedBar1: {
