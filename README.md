@@ -12,7 +12,7 @@ The **UEFA Refereeing Assistance Programme** is a fully responsive web applicati
 - **Bilingual Support**: Available in both English and Polish.
 - **Latest Refereeing Clips**: Access to up-to-date refereeing clips provided by UEFA.
 - **User-Friendly Interface**: Intuitive navigation and easy access to educational content.
-- **UPCOMING FEATURE**: **Clip Version Selection** – Soon, you will be able to select different versions of clips for a more tailored learning experience. Stay tuned for this exciting update!
+- **Clip Version Selection** – You are able to select different versions of clips for a more tailored learning experience.
 
 ## Technologies Used
 
