@@ -11,8 +11,6 @@ const CategoryClips = () => {
 	const [loading, setLoading] = useState(true)
 	const data = api[category.toUpperCase()]
 
-
-
 	useEffect(() => {
 		setTitle(version, api[category.toUpperCase()].category)
 	}, [version])
@@ -46,7 +44,7 @@ const CategoryClips = () => {
 	if (!data) {
 		throw new Error(language === 'pl' ? 'Nie znaleziono kategorii.' : 'Category not found.')
 	}
-
+	
 	return (
 		<div className='category-clips'>
 			<PageHeader

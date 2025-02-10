@@ -68,8 +68,6 @@ const NavLinks = ({ onToggleMenu }) => {
 					<span style={{ marginLeft: '8px' }}>{translations.navbar.clips}</span>
 				</NavLink>
 			</IconButton>
-
-			{/* <div className='link__box'> */}
 			<Box>
 				<IconButton
 					edge='end'

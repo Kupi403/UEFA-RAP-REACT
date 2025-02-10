@@ -1,4 +1,4 @@
-import { useRef, useState, forwardRef, useImperativeHandle } from 'react'
+import { useRef, useState, forwardRef, useImperativeHandle, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import ReactPlayer from 'react-player'
 import screenfull from 'screenfull'
@@ -31,6 +31,18 @@ const Player = forwardRef(({ clipList }, ref) => {
 		autoPlay: true,
 		isFullScreen: false,
 	})
+
+	useEffect(() => {
+		const handleKeydown = event => {
+			if (event.keyCode === 32) {
+				// spacebar
+				event.preventDefault()
+				setPlayerState(prevState => ({ ...prevState, playing: !prevState.playing, isDecision: false }))
+			}
+		}
+		document.addEventListener('keydown', handleKeydown)
+		return () => document.removeEventListener('keydown', handleKeydown)
+	}, [])
 
 	const [clipDuration, setClipDuration] = useState('00:00')
 	const currentPlayerTime = playerRef.current ? playerRef.current.getCurrentTime() : '00:00'
