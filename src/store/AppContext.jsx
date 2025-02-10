@@ -40,7 +40,7 @@ export const AppProvider = ({ children }) => {
 				setApi(api20222)
 				break
 			default:
-				setApi(api20241)
+				setApi(api20242)
 		}
 	}, [version])
 

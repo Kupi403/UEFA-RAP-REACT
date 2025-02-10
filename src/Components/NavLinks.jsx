@@ -7,7 +7,7 @@ import plIcon from '../assets/poland-flag-icon-16.png'
 import enIcon from '../assets/united-kingdom-flag-icon-16.png'
 
 const NavLinks = ({ onToggleMenu }) => {
-	const { versions, setVersion, setLanguage } = useContext(AppContext)
+	const { versions, version, setVersion, setLanguage, language } = useContext(AppContext)
 	const [versionAnchor, setVersionAnchor] = useState(null)
 	const [languageAnchor, setLanguageAnchor] = useState(null)
 
@@ -83,11 +83,13 @@ const NavLinks = ({ onToggleMenu }) => {
 					anchorEl={versionAnchor}
 					open={Boolean(versionAnchor)}
 					onClose={() => handleMenuClose('version')}>
-					{versions.map(version => (
+					{versions.map(availableVersion => (
 						<MenuItem
-							key={version}
-							onClick={() => handleVersionChange(version)}>
-							{version}
+							key={availableVersion}
+							style={{ display: 'flex', justifyContent: 'space-between', minWidth: '150px', color: 'black' }}
+							onClick={() => handleVersionChange(availableVersion)}>
+							<span style={{ color: 'black' }}>{availableVersion}</span>
+							<span style={{ color: 'black', marginLeft: '4px' }}>{availableVersion == version ? ' ✓' : ''}</span>
 						</MenuItem>
 					))}
 				</Menu>
@@ -107,19 +109,23 @@ const NavLinks = ({ onToggleMenu }) => {
 					anchorEl={languageAnchor}
 					open={Boolean(languageAnchor)}
 					onClose={() => handleMenuClose('language')}>
-					<MenuItem onClick={() => handleLanguageChange('pl')}>
+					<MenuItem
+						onClick={() => handleLanguageChange('pl')}
+						style={{ minWidth: '150px' }}>
 						<img
 							src={plIcon}
 							alt='Polish flag icon'
 						/>
-						Polski
+						{` Polski ${language == 'pl' ? ' ✓' : ''}`}
 					</MenuItem>
-					<MenuItem onClick={() => handleLanguageChange('en')}>
+					<MenuItem
+						onClick={() => handleLanguageChange('en')}
+						style={{ minWidth: '150px' }}>
 						<img
 							src={enIcon}
 							alt='UK flag icon'
 						/>
-						English
+						{` English ${language == 'en' ? ' ✓' : ''}`}
 					</MenuItem>
 				</Menu>
 			</Box>
