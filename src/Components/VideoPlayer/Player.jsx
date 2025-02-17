@@ -38,11 +38,15 @@ const Player = forwardRef(({ clipList }, ref) => {
 				// spacebar
 				event.preventDefault()
 				setPlayerState(prevState => ({ ...prevState, playing: !prevState.playing, isDecision: false }))
+			} else if (event.keyCode === 68) {
+				// 'D'
+				event.preventDefault()
+				playerState.isDecision ? hideDecision() : handleShowDecision()
 			}
 		}
 		document.addEventListener('keydown', handleKeydown)
 		return () => document.removeEventListener('keydown', handleKeydown)
-	}, [])
+	}, [playerState])
 
 	const [clipDuration, setClipDuration] = useState('00:00')
 	const currentPlayerTime = playerRef.current ? playerRef.current.getCurrentTime() : '00:00'

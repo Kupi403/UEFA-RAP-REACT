@@ -19,14 +19,14 @@ const pl = {
 	},
 
 	controls: {
-		play: 'Odtwórz',
-		pause: 'Wstrzymaj',
+		play: 'Odtwórz (spacja)',
+		pause: 'Wstrzymaj (spacja)',
 		replay: 'Jeszcze raz',
 		rewind5s: 'Cofnij 5s',
 		forward5s: 'Przewiń 5s',
 		nextClip: 'Następny klip',
 		previousClip: 'Poprzedni klip',
-		decision: 'Decyzja',
+		decision: 'Decyzja (d)',
 		volume: 'Głośność',
 		fullscreen: 'Pełny ekran',
 		exitFullscreen: 'Opuść pełny ekran',
