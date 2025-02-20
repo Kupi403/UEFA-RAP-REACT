@@ -50,6 +50,7 @@ const NavLinks = ({ onToggleMenu }) => {
 	}
 
 	const handleVersionChange = version => {
+		console.log(version)
 		onToggleMenu(false)
 		navigate('/')
 		setVersion(version)
@@ -62,7 +63,8 @@ const NavLinks = ({ onToggleMenu }) => {
 				edge='end'
 				color='inherit'
 				style={{ borderRadius: '8px', fontSize: 'inherit' }}
-				aria-label='language'>
+				aria-label='language'
+				onClick={() => onToggleMenu(false)}>
 				<Slideshow />
 				<NavLink to='/clips'>
 					<span style={{ marginLeft: '8px' }}>{translations.navbar.clips}</span>

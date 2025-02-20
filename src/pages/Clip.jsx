@@ -11,9 +11,14 @@ import isIOSDevice from '../helpers/isIOSDevice'
 import './styles/Clip.scss'
 
 const Clip = () => {
-	const { language, version, translations, api } = useContext(AppContext)
+	const { language, version, setVersion, translations, api } = useContext(AppContext)
 	const [isIOSDecision, setIsIOSDecision] = useState(false)
-	const { category, id } = useParams()
+	const params = useParams()
+
+	const category = params.category
+	const id = params.id
+	const urlVersion = params.version
+
 	const letter = category.toUpperCase()
 	const clipList = api[letter].content
 	const playerRef = useRef()
@@ -23,6 +28,7 @@ const Clip = () => {
 	useEffect(() => {
 		setDocumentTitle(version, `${category}${id}`)
 		isIOSDevice()
+		if (urlVersion !== version) setVersion(urlVersion)
 	}, [id])
 
 	const handlers = useSwipeable({

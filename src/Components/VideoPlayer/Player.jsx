@@ -34,6 +34,7 @@ const Player = forwardRef(({ clipList }, ref) => {
 
 	useEffect(() => {
 		const handleKeydown = event => {
+			console.log(event.keyCode)
 			if (event.keyCode === 32) {
 				// spacebar
 				event.preventDefault()
@@ -42,6 +43,10 @@ const Player = forwardRef(({ clipList }, ref) => {
 				// 'D'
 				event.preventDefault()
 				playerState.isDecision ? hideDecision() : handleShowDecision()
+			} else if (event.keyCode === 39) {
+				handleNext(currentClipId)
+			} else if (event.keyCode === 37) {
+				handlePrev(currentClipId)
 			}
 		}
 		document.addEventListener('keydown', handleKeydown)
@@ -61,7 +66,6 @@ const Player = forwardRef(({ clipList }, ref) => {
 		low: 0.2,
 		medium: 0.8,
 	}
-
 	const { playing, mute, volume, playerRate, played, seeking, isReady, autoPlay, isFullScreen } = playerState
 
 	const handlePlayPause = e => {
@@ -174,7 +178,8 @@ const Player = forwardRef(({ clipList }, ref) => {
 			return
 		} else {
 			hideDecision()
-			navigate(`/clips/${category}/${clipList[id].id + 1}`)
+			// navigate(`/clips/${category}/${clipList[id].id + 1}`)
+			navigate(`../${clipList[id + 1].id}`, { relative: 'path' })
 			handleResetPlayer()
 		}
 	}
@@ -184,7 +189,8 @@ const Player = forwardRef(({ clipList }, ref) => {
 			return
 		} else {
 			hideDecision()
-			navigate(`/clips/${category}/${clipList[id - 1].id}`)
+			// navigate(`/clips/${category}/${clipList[id - 1].id}`)
+			navigate(`../${clipList[id - 1].id}`, { relative: 'path' })
 			handleResetPlayer()
 		}
 	}

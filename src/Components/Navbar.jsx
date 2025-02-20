@@ -14,7 +14,7 @@ const Navbar = () => {
 		<nav className='navbar'>
 			<div className='navbar__nav'>
 				<NavLink
-					to='/'
+					to={`/`}
 					className='navbar__logo'>
 					<span className='navbar__logo-title'>UEFA RAP</span>
 					<span className='navbar__logo-title--year'>{version}</span>
