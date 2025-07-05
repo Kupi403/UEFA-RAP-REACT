@@ -2,7 +2,8 @@ import { useState, useEffect, useContext } from 'react'
 import { AppContext } from '../store/AppContext'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { IconButton, Menu, MenuItem, Box } from '@mui/material'
-import { Language, Slideshow, ArrowDropDown, History } from '@mui/icons-material'
+import { Language, Slideshow, ArrowDropDown, History, School } from '@mui/icons-material'
+
 import plIcon from '../assets/poland-flag-icon-16.png'
 import enIcon from '../assets/united-kingdom-flag-icon-16.png'
 
@@ -65,8 +66,20 @@ const NavLinks = ({ onToggleMenu }) => {
 				aria-label='language'
 				onClick={() => onToggleMenu(false)}>
 				<Slideshow />
-				<NavLink to='/clips'>
+				<NavLink to={`/clips`}>
 					<span style={{ marginLeft: '8px' }}>{translations.navbar.clips}</span>
+				</NavLink>
+			</IconButton>
+
+			<IconButton
+				edge='end'
+				color='inherit'
+				style={{ borderRadius: '8px', fontSize: 'inherit' }}
+				aria-label='test'
+				onClick={() => onToggleMenu(false)}>
+				<School />
+				<NavLink to={`${version}/test`}>
+					<span style={{ marginLeft: '8px' }}>{translations.navbar.test}</span>
 				</NavLink>
 			</IconButton>
 			<Box>

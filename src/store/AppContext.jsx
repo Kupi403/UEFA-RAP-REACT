@@ -23,6 +23,8 @@ export const AppProvider = ({ children }) => {
 	const [language, setLanguage] = useState(currentContextValues.language)
 	const [api, setApi] = useState(api20251)
 
+	const [testClips, setTestClips] = useState([])
+
 	useEffect(() => {
 		switch (version) {
 			case '2025:1':
@@ -54,7 +56,7 @@ export const AppProvider = ({ children }) => {
 	const translations = language === 'pl' ? pl : en
 
 	return (
-		<AppContext.Provider value={{ version, versions, setVersion, language, setLanguage, translations, api }}>
+		<AppContext.Provider value={{ version, versions, setVersion, language, setLanguage, translations, api,testClips, setTestClips }}>
 			{children}
 		</AppContext.Provider>
 	)

@@ -33,8 +33,22 @@ const pl = {
 	},
 	navbar: {
 		clips: 'klipy',
+		test: 'test',
 		version: 'wersja',
 		language: 'język',
+	},
+	test: {
+		mainHeader: 'Tryb testowy',
+		mainText: 'Losuj klipy z wybranych kategorii i rozpocznij naukę',
+		header: 'Wybierz kategorie i ilość klipów',
+		selectDefault: '--Wybierz--',
+		selectWarn: 'Wybierz ilość klipów',
+		amount: 'Ilość klipów:',
+		button: 'Losuj i rozpocznij',
+		noClips: 'Brak klipów w wybranych kategoriach',
+		warnAtLeastOne: 'Wybierz co najmniej jedną kategorię',
+		clear:'Wyczyść kategorie',
+		
 	},
 	footer: {
 		copyright: 'Wszystkie zasoby i prawa autorskie należą do UEFA',

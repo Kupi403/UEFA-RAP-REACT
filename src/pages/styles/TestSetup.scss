@@ -1,0 +1,93 @@
+@import '../../Components/styles/config.scss';
+.test-setup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: $font-primary;
+	background-color: $background-shadow;
+	padding: $space-small;
+	border-radius: $border-radius;
+	gap: $space-small;
+	text-align: center;
+
+	h2 {
+		font-size: $font-xlarge;
+		margin-bottom: $space-standard;
+	}
+
+	&__letters {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		&--clear-btn {
+			&.disabled {
+				opacity: 0.5;
+				pointer-events: none;
+			}
+			padding: $space-small;
+		}
+		&--labels {
+			display: flex;
+			flex-wrap: wrap;
+			gap: $space-standard;
+			margin-bottom: $space-standard;
+			background-color: $expanded-element-shadow;
+			border-radius: $border-radius;
+			padding: $space-standard;
+			label {
+				display: flex;
+				align-items: center;
+				gap: $space-small;
+				background-color: $player-background;
+				padding: $space-medium;
+				border-radius: $border-radius;
+				cursor: pointer;
+
+				input {
+					cursor: pointer;
+				}
+
+				&:hover {
+					background: $gradient;
+				}
+
+				&.active {
+					background: $gradient;
+				}
+			}
+		}
+	}
+
+	&__count {
+		margin-bottom: $space-standard;
+
+		select {
+			margin-left: $space-small;
+			padding: $space-small;
+			border-radius: $border-radius;
+			font-size: $font-medium;
+		}
+
+		&--amount {
+			margin-left: $space-small;
+		}
+	}
+
+	&__start {
+		background-color: $pure-white;
+		color: black;
+		border: none;
+		padding: $space-small $space-large;
+		font-size: $font-medium;
+		border-radius: $border-radius;
+		cursor: pointer;
+		transition: background-color 0.3s, color 0.3s;
+		margin-bottom: $space-small;
+
+		&:hover {
+			background-color: $color-gray;
+		}
+	}
+}

@@ -5,23 +5,20 @@ import Root from './pages/Root'
 import Home from './pages/Home'
 import CategoryClips from './pages/CategoryClips'
 import Clip from './pages/Clip'
+import TestWrapper from './Components/TestWrapper'
+import TestSetup from './pages/TestSetup'
 import ErrorPage from './pages/ErrorPage'
 import './App.css'
 
 const EnsureVersionInURL = ({ children }) => {
-	const { version } = useContext(AppContext)
-	const location = useLocation()
+	const { version, versions } = useContext(AppContext)
+
 	const params = useParams()
 
-	const hasVersion = params.version
+	const hasVersion = params.version && versions.includes(params.version)
 
 	if (!hasVersion) {
-		return (
-			<Navigate
-				to={`/${version}${location.pathname}`}
-				replace
-			/>
-		)
+		return <Navigate to={`/${version}`} />
 	}
 
 	return children
@@ -46,6 +43,14 @@ const router = createBrowserRouter([
 					{ path: ':category/:id', element: <Clip /> },
 				],
 			},
+		],
+	},
+	{
+		path: ':version/test',
+		element: <Root />,
+		children: [
+			{ index: true, element: <TestSetup /> },
+			{ path: ':id', element: <TestWrapper /> },
 		],
 	},
 ])

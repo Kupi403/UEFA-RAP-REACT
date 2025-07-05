@@ -50,15 +50,22 @@ const Player = forwardRef(({ clipList }, ref) => {
 
 	const shouldPlayVideo = isVideoReady || !isBuffering
 
-	const handlePlayPause = useCallback(e => {
-		if (e.target.ariaLabel === 'play/pause' || e.target.tagName === 'VIDEO') {
-			setPlayerState(prev => ({
-				...prev,
-				playing: !prev.playing,
-				isDecision: false,
-			}))
-		}
+	const togglePlayPause = useCallback(() => {
+		setPlayerState(prev => ({
+			...prev,
+			playing: !prev.playing,
+			isDecision: false,
+		}))
 	}, [])
+
+	const handlePlayerClick = useCallback(
+		e => {
+			if (e.target.tagName === 'VIDEO') {
+				togglePlayPause()
+			}
+		},
+		[togglePlayPause]
+	)
 
 	const handleMute = useCallback(() => {
 		setPlayerState(prev => {
@@ -97,13 +104,11 @@ const Player = forwardRef(({ clipList }, ref) => {
 		handleHideControls()
 	}
 
-
 	const handleRewind = useCallback(() => {
 		if (playerRef.current) {
 			playerRef.current.seekTo(playerRef.current.getCurrentTime() - 5, 'seconds')
 		}
 	}, [])
-
 
 	const handleForward = useCallback(() => {
 		if (playerRef.current) {
@@ -149,7 +154,6 @@ const Player = forwardRef(({ clipList }, ref) => {
 		[currentClipId, clipList, navigate, playerState.isVideoReady]
 	)
 
-
 	const handlePrev = useCallback(
 		id => {
 			if (currentClipId - 1 === 0 || !playerState.isVideoReady) return
@@ -159,7 +163,6 @@ const Player = forwardRef(({ clipList }, ref) => {
 		},
 		[currentClipId, clipList, navigate, playerState.isVideoReady]
 	)
-
 
 	const handleShowControls = useCallback(() => {
 		setControlsState(prev => (prev.hide ? { show: true, hide: false, isHiding: false } : prev))
@@ -182,7 +185,6 @@ const Player = forwardRef(({ clipList }, ref) => {
 		setPlayerState({ ...playerState, playing: false })
 		setIsBuffering(false)
 	}
-
 
 	const handleFullscreen = useCallback(() => {
 		if (!screenfull.isEnabled) return
@@ -260,7 +262,6 @@ const Player = forwardRef(({ clipList }, ref) => {
 			onMouseLeave={handleHideControls}
 			style={{ height: '100%', width: '100%' }}
 			onDoubleClick={e => e.target.tagName == 'VIDEO' && handleFullscreen()}
-			onClick={e => handlePlayPause(e)}
 			aria-label='player'
 			ref={playerRefFullscreen}>
 			{isBuffering && playing && (
@@ -276,6 +277,7 @@ const Player = forwardRef(({ clipList }, ref) => {
 			<ReactPlayer
 				className='player__react-player'
 				ref={playerRef}
+				onClick={handlePlayerClick}
 				width='100%'
 				height='100%'
 				url={clipList[currentClipId - 1].video}
@@ -299,7 +301,8 @@ const Player = forwardRef(({ clipList }, ref) => {
 			{!isIOSDevice() && (
 				<Controls
 					playerState={playerState}
-					onPlayPause={handlePlayPause}
+					// onPlayPause={handlePlayPause}
+					onPlayPause={togglePlayPause}
 					onMute={handleMute}
 					isHovered={controlsState.show}
 					onNext={handleNext}

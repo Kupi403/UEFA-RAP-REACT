@@ -19,6 +19,7 @@ const en = {
 	},
 	navbar: {
 		clips: 'clips',
+		test: 'test',
 		version: 'version',
 		language: 'language',
 	},
@@ -34,6 +35,18 @@ const en = {
 		volume: 'Volume',
 		fullscreen: 'Fullscreen (f)',
 		exitFullscreen: 'Exit fullscreen (Esc)',
+	},
+	test: {
+		mainHeader: 'Test mode',
+		mainText: 'Draw clips from selected categories and start learning',
+		header: 'Select categories and number of clips',
+		selectDefault:'--Select--',
+		selectWarn: 'Choose clips amount',
+		amount: 'Clips amount: ',
+		button: 'Draw and start',
+		noClips: 'No clips in the selected category',
+		warnAtLeastOne: 'Choose at least one category',
+		clear:'Clear categories',
 	},
 	footer: {
 		copyright: 'All resources and copyright are owned by UEFA',

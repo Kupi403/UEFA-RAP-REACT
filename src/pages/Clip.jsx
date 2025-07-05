@@ -10,17 +10,17 @@ import setDocumentTitle from '../helpers/setDocumentTitle'
 import isIOSDevice from '../helpers/isIOSDevice'
 import './styles/Clip.scss'
 
-const Clip = () => {
+const Clip = ({ clipListOverride, categoryOverride }) => {
 	const { language, version, setVersion, translations, api } = useContext(AppContext)
 	const [isIOSDecision, setIsIOSDecision] = useState(false)
 	const params = useParams()
 
-	const category = params.category
+	const category = categoryOverride || params.category
 	const id = params.id
 	const urlVersion = params.version
 
 	const letter = category.toUpperCase()
-	const clipList = api[letter].content
+	const clipList = clipListOverride || api[letter]?.content || []
 	const playerRef = useRef()
 	const currentClipId = +id
 	const playerWrapperRef = useRef()
@@ -28,13 +28,12 @@ const Clip = () => {
 	useEffect(() => {
 		setDocumentTitle(version, `${category}${id}`)
 		isIOSDevice()
-		if (urlVersion !== version) setVersion(urlVersion)
+		if (urlVersion && urlVersion !== version) setVersion(urlVersion)
 	}, [id])
 
 	const handlers = useSwipeable({
 		onSwipedRight: e => {
 			if (e.event.target.localName === 'span') return
-
 			if (playerRef.current) playerRef.current.handlePrev(currentClipId)
 		},
 		onSwipedLeft: e => {
@@ -45,11 +44,9 @@ const Clip = () => {
 		swipeDuration: 250,
 	})
 
-	if (clipList.length != 0 && (+id > clipList.length || +id < 0)) {
+	if (clipList.length !== 0 && (+id > clipList.length || +id < 0)) {
 		throw new Error(
-			language === 'pl'
-				? `Nie odnaleziono podanego klipu ${category}${id} w wersji UEFA RAP ${version}`
-				: `Clip '${category}${id}' not found in the UEFA RAP version ${version}`
+			language === 'pl' ? `Nie odnaleziono podanego klipu ${category}${id}` : `Clip '${category}${id}' not found`
 		)
 	}
 
@@ -59,8 +56,8 @@ const Clip = () => {
 			{...handlers}
 			ref={playerWrapperRef}>
 			<PageHeader
-				link={`/clips/${letter}`}
-				spanText={translations.home[category.toLowerCase()]}
+				link={clipListOverride ? `..` : `/clips/${letter}`}
+				spanText={clipListOverride ? 'Test' : translations.home[category.toLowerCase()] || 'Powrót'}
 				titleText={`${category}${id}`}
 			/>
 
@@ -69,7 +66,7 @@ const Clip = () => {
 				clipList={clipList}
 			/>
 
-			<div className={isIOSDevice() ? 'clip__controls' : ' clip__controls clip__controls--no-safari'}>
+			<div className={isIOSDevice() ? 'clip__controls' : 'clip__controls clip__controls--no-safari'}>
 				<span>
 					<IconButton
 						className='controls__icons'
@@ -88,7 +85,6 @@ const Clip = () => {
 					<p style={{ color: 'white' }}>
 						{id}/{clipList.length}
 					</p>
-
 					{isIOSDevice() && (
 						<IconButton
 							className='controls__icons'
@@ -100,7 +96,6 @@ const Clip = () => {
 						</IconButton>
 					)}
 				</div>
-
 				<IconButton
 					className='controls__icons'
 					onClick={() => {
@@ -114,18 +109,18 @@ const Clip = () => {
 					/>
 				</IconButton>
 			</div>
+
 			{isIOSDecision && (
 				<div className='controls__ios-decision controls__ios-decision--show'>
 					<img
 						src={clipList[currentClipId - 1].decision}
 						alt={`Decyzja klipu ${category}${id}`}
 					/>
-
 					<p>{clipList[currentClipId - 1].translation}</p>
 				</div>
 			)}
 
-			{api.dictionary[letter] && language === 'pl' && (
+			{api.dictionary[letter] && language === 'pl' && !clipListOverride && (
 				<div className='clip__dictionary'>
 					<h3 className='clip__dictionary-title'>Słownik</h3>
 					<table
@@ -137,7 +132,6 @@ const Clip = () => {
 									key={english}
 									className='clip__dictionary-item'>
 									<td className='clip__dictionary-item--english'>{english}</td>
-
 									<td className='clip__dictionary-item--polish'>{polish}</td>
 								</tr>
 							))}

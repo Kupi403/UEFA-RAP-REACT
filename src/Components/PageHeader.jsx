@@ -8,10 +8,13 @@ const PageHeader = ({ link, spanText, titleText }) => {
 	const { version } = useContext(AppContext)
 	return (
 		<div className='header'>
-			<Link to={link}>
+			<Link to={link ?? '/'}>
 				<div className='header__link'>
 					<ArrowBackIosNewIcon className='header__link--icon' />
-					<span className='header__link--span'>{`${version} - `}{spanText} </span>
+					<span className='header__link--span'>
+						{`${version} - `}
+						{spanText}{' '}
+					</span>
 				</div>
 			</Link>
 			<h2 className='header__title'>{titleText}</h2>
