@@ -50,7 +50,6 @@ const NavLinks = ({ onToggleMenu }) => {
 	}
 
 	const handleVersionChange = version => {
-		console.log(version)
 		onToggleMenu(false)
 		navigate('/')
 		setVersion(version)

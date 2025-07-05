@@ -21,27 +21,28 @@ import {
 import PrettoSlider from './PrettoSlider.js'
 import './style/Controls.scss'
 
-const ControlIcons = ({
+const Controls = ({
 	playerState,
 	onPlayPause,
 	onMute,
-	decision,
-	translation,
-	clipsLength,
-	onShowDecision,
-	clipDuration,
-	playedTime,
-	onRewind,
-	onForward,
-	played,
-	onSeek,
-	onSeekMouseUp,
-	onFullscreen,
 	isHovered,
 	onNext,
 	onPrev,
-	isFullScreen,
 	volumes,
+	clipsLength,
+	decision,
+	translation,
+	onShowDecision,
+	clipDuration,
+	playedTime,
+	played,
+	onRewind,
+	onForward,
+	onSeek,
+	onSeekMouseUp,
+	onFullscreen,
+	isFullScreen,
+	shouldPlayVideo,
 }) => {
 	const sliderRef = useRef()
 	const { translations } = useContext(AppContext)
@@ -49,10 +50,21 @@ const ControlIcons = ({
 	const params = useParams()
 	const id = +params.id
 
+	const [loadedTime, setLoadedTime] = useState(0)
+	const fullScreenStyle = isFullScreen ? { position: 'absolute' } : undefined
+
 	const classname = isHovered ? 'controls__div' : 'controls__div hidden'
 
 	const [volumeIcon, setVolumeIcon] = useState(
 		<VolumeUp
+			fontSize='medium'
+			style={{ color: 'white' }}
+		/>
+	)
+
+	const [playIconTitle, setPlayIconTitle] = useState('Odtwórz')
+	const [playIcon, setPlayIcon] = useState(
+		<PlayArrowSharp
 			fontSize='medium'
 			style={{ color: 'white' }}
 		/>
@@ -82,16 +94,6 @@ const ControlIcons = ({
 			)
 		}
 	}, [playerState.volume])
-
-	const [playIconTitle, setPlayIconTitle] = useState('Odtwórz')
-	const [playIcon, setPlayIcon] = useState(
-		<PlayArrowSharp
-			fontSize='medium'
-			style={{ color: 'white' }}
-		/>
-	)
-
-	const [loadedTime, setLoadedTime] = useState(0)
 
 	useEffect(() => {
 		if (playerState.playing) {
@@ -129,8 +131,6 @@ const ControlIcons = ({
 	useEffect(() => {
 		setLoadedTime(playerState.loaded * 100)
 	}, [playerState.loaded])
-
-	const fullScreenStyle = isFullScreen ? { position: 'absolute' } : undefined
 
 	return (
 		<>
@@ -226,10 +226,10 @@ const ControlIcons = ({
 									<IconButton
 										className='controls__icons'
 										onClick={() => onPrev(id)}
-										disabled={id === 1}>
+										disabled={id === 1 || !shouldPlayVideo}>
 										<ArrowBack
 											fontSize='medium'
-											style={id === 1 ? { color: 'gray' } : { color: 'white' }}
+											style={id === 1 || !shouldPlayVideo ? { color: 'gray' } : { color: 'white' }}
 										/>
 									</IconButton>
 								</span>
@@ -240,15 +240,17 @@ const ControlIcons = ({
 							<Tooltip
 								title={translations.controls.nextClip}
 								placement='top'>
-								<IconButton
-									className='controls__icons'
-									onClick={() => onNext(id)}
-									disabled={id === clipsLength}>
-									<ArrowForward
-										fontSize='medium'
-										style={id === clipsLength ? { color: 'gray' } : { color: 'white' }}
-									/>
-								</IconButton>
+								<span>
+									<IconButton
+										className='controls__icons'
+										onClick={() => onNext(id)}
+										disabled={id === clipsLength || !shouldPlayVideo}>
+										<ArrowForward
+											fontSize='medium'
+											style={id === clipsLength || !shouldPlayVideo ? { color: 'gray' } : { color: 'white' }}
+										/>
+									</IconButton>
+								</span>
 							</Tooltip>
 						</div>
 					</Grid>
@@ -308,4 +310,4 @@ const ControlIcons = ({
 	)
 }
 
-export default ControlIcons
+export default Controls

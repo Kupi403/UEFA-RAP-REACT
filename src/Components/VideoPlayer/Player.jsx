@@ -1,4 +1,4 @@
-import { useRef, useState, forwardRef, useImperativeHandle, useEffect } from 'react'
+import { useRef, useState, forwardRef, useImperativeHandle, useEffect, useMemo, useCallback } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import ReactPlayer from 'react-player'
 import screenfull from 'screenfull'
@@ -12,46 +12,10 @@ const Player = forwardRef(({ clipList }, ref) => {
 	const playerRef = useRef()
 	const playerRefFullscreen = useRef()
 	const navigate = useNavigate()
-	const { category, id } = useParams()
+	const { id } = useParams()
 	const [isError, setIsError] = useState(false)
-	const [isVideoReady, setIsVideoReady] = useState(false)
 
 	const currentClipId = +id
-	const [playerState, setPlayerState] = useState({
-		url: null,
-		playing: true,
-		mute: true,
-		volume: 0,
-		playerRate: 1.0,
-		played: 0,
-		loaded: 0,
-		seeking: false,
-		isDecision: false,
-		isReady: false,
-		autoPlay: true,
-		isFullScreen: false,
-	})
-
-	useEffect(() => {
-		const handleKeydown = event => {
-			console.log(event.keyCode)
-			if (event.keyCode === 32) {
-				// spacebar
-				event.preventDefault()
-				setPlayerState(prevState => ({ ...prevState, playing: !prevState.playing, isDecision: false }))
-			} else if (event.keyCode === 68) {
-				// 'D'
-				event.preventDefault()
-				playerState.isDecision ? hideDecision() : handleShowDecision()
-			} else if (event.keyCode === 39) {
-				handleNext(currentClipId)
-			} else if (event.keyCode === 37) {
-				handlePrev(currentClipId)
-			}
-		}
-		document.addEventListener('keydown', handleKeydown)
-		return () => document.removeEventListener('keydown', handleKeydown)
-	}, [playerState])
 
 	const [clipDuration, setClipDuration] = useState('00:00')
 	const currentPlayerTime = playerRef.current ? playerRef.current.getCurrentTime() : '00:00'
@@ -66,39 +30,47 @@ const Player = forwardRef(({ clipList }, ref) => {
 		low: 0.2,
 		medium: 0.8,
 	}
-	const { playing, mute, volume, playerRate, played, seeking, isReady, autoPlay, isFullScreen } = playerState
 
-	const handlePlayPause = e => {
-		if (e.target.ariaLabel == 'play/pause' || e.target.tagName == 'VIDEO') {
-			setPlayerState({
-				...playerState,
-				playing: !playerState.playing,
+	const [playerState, setPlayerState] = useState({
+		url: null,
+		playing: true,
+		mute: true,
+		volume: 0,
+		playerRate: 1.0,
+		played: 0,
+		loaded: 0,
+		seeking: false,
+		isDecision: false,
+		isVideoReady: false,
+		autoPlay: true,
+		isFullScreen: false,
+	})
+
+	const { playing, mute, volume, played, isVideoReady, autoPlay, isFullScreen } = playerState
+
+	const shouldPlayVideo = isVideoReady || !isBuffering
+
+	const handlePlayPause = useCallback(e => {
+		if (e.target.ariaLabel === 'play/pause' || e.target.tagName === 'VIDEO') {
+			setPlayerState(prev => ({
+				...prev,
+				playing: !prev.playing,
 				isDecision: false,
-			})
+			}))
 		}
-	}
+	}, [])
 
-	const handleMute = e => {
-		if (volume == volumes.low) {
-			setPlayerState({
-				...playerState,
-				mute: false,
-				volume: volumes.medium,
-			})
-		} else if (volume == volumes.medium) {
-			setPlayerState({
-				...playerState,
-				mute: true,
-				volume: 0,
-			})
-		} else if (volume == 0) {
-			setPlayerState({
-				...playerState,
-				mute: false,
-				volume: volumes.low,
-			})
-		}
-	}
+	const handleMute = useCallback(() => {
+		setPlayerState(prev => {
+			if (prev.volume === volumes.low) {
+				return { ...prev, mute: false, volume: volumes.medium }
+			} else if (prev.volume === volumes.medium) {
+				return { ...prev, mute: true, volume: 0 }
+			} else {
+				return { ...prev, mute: false, volume: volumes.low }
+			}
+		})
+	}, [volumes])
 
 	const handleResetPlayer = () => {
 		if (playerRef.current) {
@@ -106,43 +78,17 @@ const Player = forwardRef(({ clipList }, ref) => {
 		}
 	}
 
-	const handleSetVolume = e => {
-		setPlayerState({ ...playerState, volume: +e.target.value / 100, mute: false })
-	}
-
 	const hideDecision = () => {
 		setPlayerState({ ...playerState, isDecision: false })
 	}
 
-	const handleShowDecision = () => {
-		const prevStatePlaying = playerState.playing
-
-		if (!playerState.isDecision && playerState.playing) {
-			setPlayerState({
-				...playerState,
-				isDecision: !playerState.isDecision,
-				playing: !prevStatePlaying,
-			})
-		} else if (!playerState.isDecision && !prevStatePlaying) {
-			setPlayerState({
-				...playerState,
-				isDecision: !playerState.isDecision,
-				playing: prevStatePlaying,
-			})
-		} else if (!playerState.isDecision && prevStatePlaying) {
-			setPlayerState({
-				...playerState,
-				isDecision: !playerState.isDecision,
-				playing: prevStatePlaying,
-			})
-		} else {
-			setPlayerState({
-				...playerState,
-				isDecision: !playerState.isDecision,
-				playing: !prevStatePlaying,
-			})
-		}
-	}
+	const handleShowDecision = useCallback(() => {
+		setPlayerState(prev => ({
+			...prev,
+			isDecision: !prev.isDecision,
+			playing: prev.isDecision ? prev.playing : false,
+		}))
+	}, [])
 
 	const getClipDuration = () => {
 		setIsBuffering(false)
@@ -151,63 +97,85 @@ const Player = forwardRef(({ clipList }, ref) => {
 		handleHideControls()
 	}
 
-	const handleRewind = () => {
-		playerRef.current.seekTo(playerRef.current.getCurrentTime() - 5, 'seconds')
-	}
 
-	const handleForward = () => {
-		playerRef.current.seekTo(playerRef.current.getCurrentTime() + 5, 'seconds')
-	}
+	const handleRewind = useCallback(() => {
+		if (playerRef.current) {
+			playerRef.current.seekTo(playerRef.current.getCurrentTime() - 5, 'seconds')
+		}
+	}, [])
+
+
+	const handleForward = useCallback(() => {
+		if (playerRef.current) {
+			playerRef.current.seekTo(playerRef.current.getCurrentTime() + 5, 'seconds')
+		}
+	}, [])
 
 	const handlePlayerProgress = state => {
 		setPlayerState({ ...playerState, ...state })
 	}
 
-	const handlePlayerSeek = newValue => {
+	const handlePlayerSeek = useCallback(newValue => {
 		const newTime = parseFloat(newValue.target.value / 100)
-		setPlayerState({ ...playerState, played: newTime, seeking: true, playing: false })
-		playerRef.current.seekTo(newTime)
+		setPlayerState(prev => ({
+			...prev,
+			played: newTime,
+			seeking: true,
+			playing: false,
+		}))
+		playerRef.current?.seekTo(newTime)
+	}, [])
+
+	const handlePlayerMouseSeekUp = useCallback(() => {
+		setPlayerState(prev => ({
+			...prev,
+			seeking: false,
+			playing: true,
+		}))
+	}, [])
+
+	const handleVideoReady = ready => {
+		setIsBuffering(!ready)
+		setPlayerState(prev => ({ ...prev, isVideoReady: ready }))
 	}
 
-	const handlePlayerMouseSeekUp = () => {
-		setPlayerState({ ...playerState, seeking: false, playing: true })
-	}
-
-	const handleNext = id => {
-		if (currentClipId === clipList.length || !isVideoReady) {
-			return
-		} else {
+	const handleNext = useCallback(
+		id => {
+			if (currentClipId === clipList.length || !playerState.isVideoReady) return
 			hideDecision()
-			// navigate(`/clips/${category}/${clipList[id].id + 1}`)
-			navigate(`../${clipList[id + 1].id}`, { relative: 'path' })
+			navigate(`../${clipList[id].id + 1}`, { relative: 'path' })
 			handleResetPlayer()
-		}
-	}
+		},
+		[currentClipId, clipList, navigate, playerState.isVideoReady]
+	)
 
-	const handlePrev = id => {
-		if (currentClipId - 1 == 0 || !isVideoReady) {
-			return
-		} else {
+
+	const handlePrev = useCallback(
+		id => {
+			if (currentClipId - 1 === 0 || !playerState.isVideoReady) return
 			hideDecision()
-			// navigate(`/clips/${category}/${clipList[id - 1].id}`)
 			navigate(`../${clipList[id - 1].id}`, { relative: 'path' })
 			handleResetPlayer()
-		}
-	}
-	const handleShowControls = () => {
-		if (controlsState.hide) {
-			setControlsState({ show: true, hide: false, isHiding: false })
-		}
-	}
+		},
+		[currentClipId, clipList, navigate, playerState.isVideoReady]
+	)
 
-	const handleHideControls = () => {
-		if (controlsState.show && !controlsState.isHiding) {
-			setControlsState({ ...controlsState, isHiding: true })
-			setTimeout(() => {
-				setControlsState({ show: false, hide: true, isHiding: false })
-			}, 3000)
-		}
-	}
+
+	const handleShowControls = useCallback(() => {
+		setControlsState(prev => (prev.hide ? { show: true, hide: false, isHiding: false } : prev))
+	}, [])
+
+	const handleHideControls = useCallback(() => {
+		setControlsState(prev => {
+			if (prev.show && !prev.isHiding) {
+				setTimeout(() => {
+					setControlsState({ show: false, hide: true, isHiding: false })
+				}, 3000)
+				return { ...prev, isHiding: true }
+			}
+			return prev
+		})
+	}, [])
 
 	const handleEndPlaying = () => {
 		handleShowControls()
@@ -215,24 +183,67 @@ const Player = forwardRef(({ clipList }, ref) => {
 		setIsBuffering(false)
 	}
 
-	const handleFullscreen = () => {
-		const prevStatePlaying = playerState.playing
-		if (!isFullScreen) {
-			if (screenfull.isEnabled) {
-				handleHideControls()
-				screenfull.request(playerRefFullscreen.current)
-				setPlayerState({ ...playerState, isFullScreen: true, playing: !prevStatePlaying })
-			}
+
+	const handleFullscreen = useCallback(() => {
+		if (!screenfull.isEnabled) return
+		handleHideControls()
+		if (!screenfull.isFullscreen) {
+			screenfull.request(playerRefFullscreen.current)
 		} else {
 			screenfull.exit()
-			setPlayerState({ ...playerState, isFullScreen: false, playing: !prevStatePlaying })
 		}
-		screenfull.on('change', () =>
-			screenfull.isFullscreen
-				? setPlayerState({ ...playerState, isFullScreen: true, playing: prevStatePlaying })
-				: setPlayerState({ ...playerState, isFullScreen: false, playing: prevStatePlaying })
-		)
-	}
+	}, [handleHideControls])
+
+	useEffect(() => {
+		const handleKeydown = event => {
+			switch (event.keyCode) {
+				case 32: // space
+					event.preventDefault()
+					setPlayerState(prev => ({
+						...prev,
+						playing: !prev.playing,
+						isDecision: false,
+					}))
+					break
+				case 37: // left arrow
+					handlePrev(currentClipId)
+					break
+				case 39: // right arrow
+					handleNext(currentClipId)
+					break
+
+				case 68: // 'd'
+					handleShowDecision()
+					break
+
+				case 70: // 'f'
+					handleFullscreen()
+					break
+
+				default:
+					break
+			}
+		}
+		document.addEventListener('keydown', handleKeydown)
+		return () => document.removeEventListener('keydown', handleKeydown)
+	})
+
+	useEffect(() => {
+		if (!screenfull.isEnabled) return
+
+		const handleScreenfullChange = () => {
+			setPlayerState(prev => ({
+				...prev,
+				isFullScreen: screenfull.isFullscreen,
+			}))
+		}
+
+		screenfull.on('change', handleScreenfullChange)
+
+		return () => {
+			screenfull.off('change', handleScreenfullChange)
+		}
+	}, [])
 
 	useImperativeHandle(ref, () => ({
 		playerState,
@@ -252,7 +263,7 @@ const Player = forwardRef(({ clipList }, ref) => {
 			onClick={e => handlePlayPause(e)}
 			aria-label='player'
 			ref={playerRefFullscreen}>
-			{(!isVideoReady || isBuffering) && !playing && (
+			{isBuffering && playing && (
 				<div className='player__loading'>
 					<CircularProgress />
 				</div>
@@ -272,19 +283,18 @@ const Player = forwardRef(({ clipList }, ref) => {
 				muted={mute}
 				onError={() => setIsError(true)}
 				volume={volume}
-				onReady={() => {
-					setIsVideoReady(true)
-					getClipDuration()
-				}}
 				controls={isIOSDevice()}
 				playsinline={isIOSDevice()}
-				onStart={() => setIsBuffering(true)}
 				autoPlay={autoPlay}
 				onProgress={handlePlayerProgress}
 				progressInterval={10}
 				onEnded={handleEndPlaying}
 				onBuffer={() => setIsBuffering(true)}
 				onBufferEnd={() => setIsBuffering(false)}
+				onReady={() => {
+					handleVideoReady(true)
+					getClipDuration()
+				}}
 			/>
 			{!isIOSDevice() && (
 				<Controls
@@ -294,25 +304,21 @@ const Player = forwardRef(({ clipList }, ref) => {
 					isHovered={controlsState.show}
 					onNext={handleNext}
 					onPrev={handlePrev}
-					volume={volume}
 					volumes={volumes}
-					onSetVolume={handleSetVolume}
-					currentId={currentClipId}
 					clipsLength={clipList.length}
 					decision={clipList[currentClipId - 1].decision}
 					translation={clipList[currentClipId - 1].translation}
 					onShowDecision={handleShowDecision}
 					clipDuration={clipDuration}
 					playedTime={formatTime(currentPlayerTime)}
-					currentTime={currentPlayerTime}
 					played={played}
-					isBuffering={isBuffering}
 					onRewind={handleRewind}
 					onForward={handleForward}
 					onSeek={handlePlayerSeek}
 					onSeekMouseUp={handlePlayerMouseSeekUp}
 					onFullscreen={handleFullscreen}
 					isFullScreen={isFullScreen}
+					shouldPlayVideo={shouldPlayVideo}
 				/>
 			)}
 		</div>

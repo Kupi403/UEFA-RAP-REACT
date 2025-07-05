@@ -2,6 +2,7 @@ import React, { createContext, useState, useEffect } from 'react'
 import pl from '../locale/pl'
 import en from '../locale/en'
 // import setDocumentTitle from '../helpers/setDocumentTitle'
+import api20251 from '../assets/app-clips-2025-1.json'
 import api20242 from '../assets/app-clips-2024-2.json'
 import api20241 from '../assets/app-clips-2024-1.json'
 import api20232 from '../assets/app-clips-2023-2.json'
@@ -11,7 +12,7 @@ import api20222 from '../assets/app-clips-2022-2.json'
 export const AppContext = createContext()
 
 export const AppProvider = ({ children }) => {
-	const versions = ['EURO 2024', '2024:1', '2023:2', '2023:1']
+	const versions = ['2025:1', 'EURO 2024', '2024:1', '2023:2', '2023:1']
 
 	const currentContextValues = {
 		language: localStorage.getItem('language') || 'pl',
@@ -20,10 +21,13 @@ export const AppProvider = ({ children }) => {
 
 	const [version, setVersion] = useState(currentContextValues.version)
 	const [language, setLanguage] = useState(currentContextValues.language)
-	const [api, setApi] = useState(api20242)
+	const [api, setApi] = useState(api20251)
 
 	useEffect(() => {
 		switch (version) {
+			case '2025:1':
+				setApi(api20251)
+				break
 			case 'EURO 2024':
 				setApi(api20242)
 				break
