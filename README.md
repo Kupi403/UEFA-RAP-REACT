@@ -14,6 +14,7 @@ The **UEFA Refereeing Assistance Programme** is a fully responsive web applicati
 - Categorized video library with archive  
 - Sequential video playback for educational use  
 - Simple and intuitive user interface
+- New learn feature - draw selected clips and test your knowledge before exam
 
 ### 🛠 Technologies
 
